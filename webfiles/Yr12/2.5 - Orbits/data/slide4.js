@@ -1,0 +1,9 @@
+(function(){var loadHandler=window['sl_{F405590F-0318-4080-AF84-F45EB7918A6F}'];loadHandler&&loadHandler(3, '<div id="spr0_5e4ae2b"><div id="spr1_5e4ae2b" class="kern"><img id="img5_5e4ae2b" src="data/img7.png" width="720px" height="540px" alt="" style="left:0px;top:0px;"/><div id="spr3_5e4ae2b" style="left:-0.75px;top:-0.563px;"><img id="img0_5e4ae2b" src="data/img0.png" width="721.5" height="82" alt=""/></div><div id="spr4_5e4ae2b" style="left:345px;top:-0.563px;"><img id="img1_5e4ae2b" src="data/img1.png" width="375" height="47.812" alt=""/></div><div id="spr5_5e4ae2b" style="left:-2.751px;top:-1.714px;"><div id="spr6_5e4ae2b" style="left:0.001px;top:34.523px;"><img id="img2_5e4ae2b" src="data/img2.png" width="722.775" height="50.106" alt=""/></div><div id="spr7_5e4ae2b" style="left:0.65px;top:40.368px;"><img id="img3_5e4ae2b" src="data/img3.png" width="723.63" height="41.02" alt=""/></div></div></div><div id="spr2_5e4ae2b" class="kern"><div id="spr8_5e4ae2b" style="left:36px;top:55.44px;"><div style="width:0px;"><span id="txt0_5e4ae2b" data-width="566.796875" style="top:23.675px;">Features of Satellite Motion</span></div></div><div id="spr9_5e4ae2b" style="left:46px;top:163px;"><img id="img4_5e4ae2b" src="data/img8.png" width="567" height="286" alt="Keplers Laws for Planetary Motion:\
+Planets orbit the Sun in Elliptical Orbits\
+Planets orbits sweep out equal areas in equal time\
+All planets in the same system have the same ratio: \
+T2 ∝ r3, better known as:    T 2   r 3  = 4 𝜋 2  𝐺𝑀 \
+We can model this as averaged Circular Motion\
+Objects in orbit are only acted upon by Gravity\
+Therefore, objects in orbit are actually in Free-fall\
+"/></div></div></div>');})();
