@@ -15,7 +15,7 @@ Function TraverseFolder(FolderName)
         TraverseFolder(fld) 
         For Each flname in fld.Files 
             if objFso.GetFileName(flname.Path)="index.html" then
-                msgbox fld.Path & "\" & objFso.GetFileName(flname.Path)
+                'msgbox fld.Path & "\" & objFso.GetFileName(flname.Path)
 
                 Set objFile = objFso.OpenTextFile(fld.Path & "\" & objFso.GetFileName(flname.Path), 1)
 
