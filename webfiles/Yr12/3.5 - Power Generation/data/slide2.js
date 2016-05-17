@@ -1,0 +1,9 @@
+(function(){var loadHandler=window['sl_{46B67C4C-9C88-4234-BCC5-F88A7F22EE9E}'];loadHandler&&loadHandler(1, '<div id="spr0_2803352b"><div id="spr1_2803352b" class="kern"><img id="img5_2803352b" src="data/img7.png" width="720px" height="540px" alt="" style="left:0px;top:0px;"/><div id="spr3_2803352b" style="left:-0.75px;top:-0.563px;"><img id="img0_2803352b" src="data/img0.png" width="721.5" height="82" alt=""/></div><div id="spr4_2803352b" style="left:345px;top:-0.563px;"><img id="img1_2803352b" src="data/img1.png" width="375" height="47.812" alt=""/></div><div id="spr5_2803352b" style="left:-2.751px;top:-1.714px;"><div id="spr6_2803352b" style="left:0.001px;top:34.523px;"><img id="img2_2803352b" src="data/img2.png" width="722.775" height="50.106" alt=""/></div><div id="spr7_2803352b" style="left:0.65px;top:40.368px;"><img id="img3_2803352b" src="data/img3.png" width="723.63" height="41.02" alt=""/></div></div></div><div id="spr2_2803352b" class="kern"><div id="spr8_2803352b" style="left:36px;top:55.44px;"><div style="width:0px;"><span id="txt0_2803352b" data-width="607.885742" style="top:23.675px;">Syllabus (ATAR Physics Unit 3)</span></div></div><div id="spr9_2803352b" style="left:45px;top:161px;"><img id="img4_2803352b" src="data/img6.png" width="613" height="271" alt="A changing magnetic flux induces a potential difference; this process of electromagnetic induction is used in step‐up and step‐down transformers, DC and AC generators\
+	This includes applying the relationships\
+\
+𝑖𝑛𝑑𝑢𝑐𝑒𝑑 𝑒𝑚𝑓=−𝑁   𝜙 2 − 𝜙 1   𝑡 =−𝑁 ∆𝜙 𝑡 =−𝑁 ∆ 𝐵 𝐴 ⊥   t  \
+\
+AC Generator emfmax =  𝑒𝑚𝑓 max =−2𝑁𝑙𝑣𝐵=−2𝜋𝑁𝐵𝐴𝑓\
+\
+𝑃=𝑉𝐼= 𝐼 2 𝑅=  𝑉 2  𝑅 \
+"/></div></div></div>');})();
