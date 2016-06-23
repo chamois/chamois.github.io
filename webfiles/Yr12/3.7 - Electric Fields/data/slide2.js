@@ -1,0 +1,12 @@
+(function(){var loadHandler=window['sl_{87B314FA-4C9D-4E5B-9F14-D43A18A1B3AB}'];loadHandler&&loadHandler(1, '<div id="spr0_3c6e70fb"><div id="spr1_3c6e70fb" class="kern"><img id="img5_3c6e70fb" src="data/img7.png" width="720px" height="540px" alt="" style="left:0px;top:0px;"/><div id="spr3_3c6e70fb" style="left:-0.75px;top:-0.563px;"><img id="img0_3c6e70fb" src="data/img0.png" width="721.5" height="82" alt=""/></div><div id="spr4_3c6e70fb" style="left:345px;top:-0.563px;"><img id="img1_3c6e70fb" src="data/img1.png" width="375" height="47.812" alt=""/></div><div id="spr5_3c6e70fb" style="left:-2.751px;top:-1.714px;"><div id="spr6_3c6e70fb" style="left:0.001px;top:34.523px;"><img id="img2_3c6e70fb" src="data/img2.png" width="722.775" height="50.106" alt=""/></div><div id="spr7_3c6e70fb" style="left:0.65px;top:40.368px;"><img id="img3_3c6e70fb" src="data/img3.png" width="723.63" height="41.02" alt=""/></div></div></div><div id="spr2_3c6e70fb" class="kern"><div id="spr8_3c6e70fb" style="left:36px;top:55.44px;"><div style="width:0px;"><span id="txt0_3c6e70fb" data-width="607.885742" style="top:23.675px;">Syllabus (ATAR Physics Unit 3)</span></div></div><div id="spr9_3c6e70fb" style="left:45px;top:157px;"><img id="img4_3c6e70fb" src="data/img6.png" width="632" height="368" alt="Electrostatically charged objects exert a force upon one another; the magnitude of this force can be calculated using Coulomb’s Law\
+	This includes applying the relationship\
+𝐹= 1 4𝜋 𝜖 0    𝑞 1  𝑞 2   𝑟 2  \
+Point charges and charged objects produce an electric field in the space that surrounds them; field theory attributes the electrostatic force on a point charge or charged body to the presence of an electric field\
+A positively charged body placed in an electric field will experience a force in the direction of the field; the strength of the electric field is defined as the force per unit charge\
+	This includes applying the relationship\
+𝐸= 𝐹 𝑞 \
+When a charged body moves or is moved from one point to another in an electric field and its potential energy changes, work is done on the charge by the field\
+	This includes applying the relationship\
+𝑉= 𝑊 𝑞  \
+The direction of conventional current is that in which the flow of positive charges takes place, while the electron flow is in the opposite direction\
+"/></div></div></div>');})();
