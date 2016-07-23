@@ -1,0 +1,10 @@
+(function(){var loadHandler=window['sl_{0C7F04AC-6FBE-41BA-AEAC-7C93CE93C416}'];loadHandler&&loadHandler(9, '<div id="spr0_7ac14812"><div id="spr1_7ac14812" class="kern"><img id="img7_7ac14812" src="data/img6.png" width="720px" height="540px" alt="" style="left:0px;top:0px;"/><div id="spr3_7ac14812" style="left:-0.75px;top:-0.563px;"><img id="img0_7ac14812" src="data/img0.png" width="721.5" height="82" alt=""/></div><div id="spr4_7ac14812" style="left:345px;top:-0.563px;"><img id="img1_7ac14812" src="data/img1.png" width="375" height="47.812" alt=""/></div><div id="spr5_7ac14812" style="left:-2.751px;top:-1.714px;"><div id="spr6_7ac14812" style="left:0.001px;top:34.523px;"><img id="img2_7ac14812" src="data/img2.png" width="722.775" height="50.106" alt=""/></div><div id="spr7_7ac14812" style="left:0.65px;top:40.368px;"><img id="img3_7ac14812" src="data/img3.png" width="723.63" height="41.02" alt=""/></div></div></div><div id="spr2_7ac14812" class="kern"><div id="spr8_7ac14812" style="left:36px;top:32.379px;"><div style="width:0px;"><span id="txt0_7ac14812" data-width="490.771484" style="top:23.675px;">Total Internal Reflection</span></div></div><div id="spr9_7ac14812" style="left:24px;top:135px;"><img id="img4_7ac14812" src="data/img15.png" width="339" height="327" alt="When the angle of incidence is larger than a certain angle, a wave will not be refracted. It will be reflected. \
+This critical angle is given by the formula 𝑠𝑖𝑛 𝜃 𝑐 = 𝑣1 𝑣2 \
+This is the principle of light propagation within Fibre Optic cabling (fancy sound systems, NBN, etc)\
+\
+\
+\
+\
+\
+\
+"/></div><div id="spr10_7ac14812" style="left:397.541px;top:124.115px;"><img id="img5_7ac14812" src="data/img16.jpg" width="306" height="225" alt="http://upload.wikimedia.org/wikipedia/commons/e/ec/Total_internal_reflection.jpg" style="left:-0.245px;top:0.132px;"/></div><div id="spr11_7ac14812" style="left:362.532px;top:380.22px;"><img id="img6_7ac14812" src="data/img17.png" width="342" height="124" alt="https://zoomapps.files.wordpress.com/2015/02/total-internal-reflection-fibre-optic-cable.png?w=656" style="left:0.136px;top:-0.106px;"/></div></div></div>');})();
