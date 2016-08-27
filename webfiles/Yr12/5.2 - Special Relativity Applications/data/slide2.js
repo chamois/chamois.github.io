@@ -1,0 +1,11 @@
+(function(){var loadHandler=window['sl_{6F7AE48C-EECA-49B4-B00F-9F898E6553CC}'];loadHandler&&loadHandler(1, '<div id="spr0_15557675"><div id="spr1_15557675" class="kern"><img id="img5_15557675" src="data/img7.png" width="720px" height="540px" alt="" style="left:0px;top:0px;"/><div id="spr3_15557675" style="left:-0.75px;top:-0.563px;"><img id="img0_15557675" src="data/img0.png" width="721.5" height="82" alt=""/></div><div id="spr4_15557675" style="left:345px;top:-0.563px;"><img id="img1_15557675" src="data/img1.png" width="375" height="47.812" alt=""/></div><div id="spr5_15557675" style="left:-2.751px;top:-1.714px;"><div id="spr6_15557675" style="left:0.001px;top:34.523px;"><img id="img2_15557675" src="data/img2.png" width="722.775" height="50.106" alt=""/></div><div id="spr7_15557675" style="left:0.65px;top:40.368px;"><img id="img3_15557675" src="data/img3.png" width="723.63" height="41.02" alt=""/></div></div></div><div id="spr2_15557675" class="kern"><div id="spr8_15557675" style="left:36px;top:55.44px;"><div style="width:0px;"><span id="txt0_15557675" data-width="607.885742" style="top:23.675px;">Syllabus (ATAR Physics Unit 3)</span></div></div><div id="spr9_15557675" style="left:45px;top:159px;"><img id="img4_15557675" src="data/img6.png" width="615" height="352" alt="Motion can only be measured relative to an observer; length and time are relative quantities that depend on the observer’s frame of reference\
+\
+This includes applying the relationships\
+𝑙= 𝑙 0   1−  𝑣 2   𝑐 2        𝑡=  𝑡 0    1−  𝑣 2   𝑐 2         𝑢= 𝑣+ 𝑢 ′  1+ 𝑣  𝑢 ′   𝑐 2        𝑢′= 𝑢−𝑣 1− 𝑢 𝑣  𝑐 2   \
+Relativistic momentum increases at high relative speed and prevents an object from reaching the speed of light\
+This includes applying the relationship\
+ 𝑝 𝑣 = 𝑚 𝑣   1−  𝑣 2   𝑐 2    \
+the concept of mass‐energy equivalence emerged from the special theory of relativity and explains the source of the energy produced in nuclear reactions\
+This includes applying the relationship\
+𝐸= 𝑚  𝑐 2    1−  𝑣 2   𝑐 2    \
+"/></div></div></div>');})();
