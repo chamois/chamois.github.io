@@ -1,0 +1,8 @@
+(function(){var loadHandler=window['sl_{A0A939D8-551A-4FF9-B7AD-6652B1915B85}'];loadHandler&&loadHandler(17, '<div id="spr0_184570"><div id="spr1_184570" class="kern"><img id="img5_184570" src="data/img6.png" width="720px" height="540px" alt="" style="left:0px;top:0px;"/><div id="spr3_184570" style="left:-0.75px;top:-0.563px;"><img id="img0_184570" src="data/img0.png" width="721.5" height="82" alt=""/></div><div id="spr4_184570" style="left:345px;top:-0.563px;"><img id="img1_184570" src="data/img1.png" width="375" height="47.812" alt=""/></div><div id="spr5_184570" style="left:-2.751px;top:-1.714px;"><div id="spr6_184570" style="left:0.001px;top:34.523px;"><img id="img2_184570" src="data/img2.png" width="722.775" height="50.106" alt=""/></div><div id="spr7_184570" style="left:0.65px;top:40.368px;"><img id="img3_184570" src="data/img3.png" width="723.63" height="41.02" alt=""/></div></div></div><div id="spr2_184570" class="kern"><div id="spr8_184570" style="left:36px;top:55.44px;"><div style="width:0px;"><span id="txt0_184570" data-width="410.738281" style="top:31.634px;">Absolute &amp; Percentage</span></div></div><div id="spr9_184570" style="left:45px;top:157px;"><img id="img4_184570" src="data/img15.png" width="619" height="313" alt="Absolute Uncertainty\
+Same units as measurement\
+E.G Finest scale of ruler is 1mm, so Uncertainty is 0.5mm\
+Absolute uncertainty is important when adding and subtracting measurements.\
+\
+Percentage Uncertainty\
+ 𝐴𝑏𝑠𝑜𝑙𝑢𝑡𝑒 𝑈𝑛𝑐𝑒𝑟𝑡𝑎𝑖𝑛𝑡𝑦 𝑀𝑒𝑎𝑠𝑢𝑟𝑒𝑑 𝑄𝑢𝑎𝑛𝑡𝑖𝑡𝑦 =  0.5𝑚𝑚  232 𝑚𝑚 =0.0022, 𝑜𝑟 0.22% \
+Percentage uncertainty is important when multiplying and dividing measurements by one another"/></div></div></div>');})();
