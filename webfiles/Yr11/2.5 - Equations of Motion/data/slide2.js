@@ -1,0 +1,10 @@
+(function(){var loadHandler=window['sl_{C12EEF84-7B97-4831-BDBD-EB6AEC5275CE}'];loadHandler&&loadHandler(1, '<div id="spr0_f83b1a9"><div id="spr1_f83b1a9" class="kern"><img id="img5_f83b1a9" src="data/img7.png" width="720px" height="540px" alt="" style="left:0px;top:0px;"/><div id="spr3_f83b1a9" style="left:-0.75px;top:-0.563px;"><img id="img0_f83b1a9" src="data/img0.png" width="721.5" height="82" alt=""/></div><div id="spr4_f83b1a9" style="left:345px;top:-0.563px;"><img id="img1_f83b1a9" src="data/img1.png" width="375" height="47.812" alt=""/></div><div id="spr5_f83b1a9" style="left:-2.751px;top:-1.714px;"><div id="spr6_f83b1a9" style="left:0.001px;top:34.523px;"><img id="img2_f83b1a9" src="data/img2.png" width="722.775" height="50.106" alt=""/></div><div id="spr7_f83b1a9" style="left:0.65px;top:40.368px;"><img id="img3_f83b1a9" src="data/img3.png" width="723.63" height="41.02" alt=""/></div></div></div><div id="spr2_f83b1a9" class="kern"><div id="spr8_f83b1a9" style="left:36px;top:55.44px;"><div style="width:0px;"><span id="txt0_f83b1a9" data-width="302.148438" style="top:23.675px;">Syllabus Points</span></div></div><div id="spr9_f83b1a9" style="left:45px;top:157px;"><img id="img4_f83b1a9" src="data/img6.png" width="622" height="342" alt="Uniformly accelerated motion is described in terms of relationships between measurable scalar and vector quantities, including displacement, speed, velocity and acceleration\
+This includes applying the relationships\
+\
+ 𝑣 𝑎𝑣 = 𝑠 𝑡                           𝑎= 𝑣−𝑢 𝑡                                   𝑣=𝑢+𝑎𝑡   \
+\
+𝑠=𝑢𝑡+ 1 2 𝑎 𝑡 2                        𝑣 2 = 𝑢 2 +2𝑎𝑠\
+\
+Representations, including graphs, vectors, and equations of motion, can be used qualitatively and quantitatively to describe and predict linear motion\
+\
+Vertical motion is analysed by assuming the acceleration due to gravity is constant near Earth’s surface"/></div></div></div>');})();

@@ -1,0 +1,8 @@
+(function(){var loadHandler=window['sl_{2D69C7EE-FD80-41BF-9E74-21C8D4B4CFED}'];loadHandler&&loadHandler(22, '<div id="spr0_f81ab0b"><div id="spr1_f81ab0b" class="kern"><img id="img5_f81ab0b" src="data/img7.png" width="720px" height="540px" alt="" style="left:0px;top:0px;"/><div id="spr3_f81ab0b" style="left:-0.75px;top:-0.563px;"><img id="img0_f81ab0b" src="data/img0.png" width="721.5" height="82" alt=""/></div><div id="spr4_f81ab0b" style="left:345px;top:-0.563px;"><img id="img1_f81ab0b" src="data/img1.png" width="375" height="47.812" alt=""/></div><div id="spr5_f81ab0b" style="left:-2.751px;top:-1.714px;"><div id="spr6_f81ab0b" style="left:0.001px;top:34.523px;"><img id="img2_f81ab0b" src="data/img2.png" width="722.775" height="50.106" alt=""/></div><div id="spr7_f81ab0b" style="left:0.65px;top:40.368px;"><img id="img3_f81ab0b" src="data/img3.png" width="723.63" height="41.02" alt=""/></div></div></div><div id="spr2_f81ab0b" class="kern"><div id="spr8_f81ab0b" style="left:36px;top:55.44px;"><div style="width:0px;"><span id="txt0_f81ab0b" data-width="270.971680" style="top:23.675px;">Example Soln</span></div></div><div id="spr9_f81ab0b" style="left:44px;top:162px;"><img id="img4_f81ab0b" src="data/img26.png" width="621" height="201" alt="b) If he falls onto super-duper-hard concrete which slows his body in 1 ms. What force will he experience?\
+ \
+𝐼=𝐹∆𝑡=∆𝑝\
+\
+𝐹= 𝑝 𝑡 = 3190 0.001  =3.19× 10 6  N\
+\
+\
+"/></div></div></div>');})();

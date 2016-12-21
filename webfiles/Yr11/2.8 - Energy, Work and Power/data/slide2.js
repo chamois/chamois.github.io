@@ -1,0 +1,9 @@
+(function(){var loadHandler=window['sl_{6D80E47F-156F-4641-B1ED-C4F9D6F83CA8}'];loadHandler&&loadHandler(1, '<div id="spr0_f853e06"><div id="spr1_f853e06" class="kern"><img id="img5_f853e06" src="data/img7.png" width="720px" height="540px" alt="" style="left:0px;top:0px;"/><div id="spr3_f853e06" style="left:-0.75px;top:-0.563px;"><img id="img0_f853e06" src="data/img0.png" width="721.5" height="82" alt=""/></div><div id="spr4_f853e06" style="left:345px;top:-0.563px;"><img id="img1_f853e06" src="data/img1.png" width="375" height="47.812" alt=""/></div><div id="spr5_f853e06" style="left:-2.751px;top:-1.714px;"><div id="spr6_f853e06" style="left:0.001px;top:34.523px;"><img id="img2_f853e06" src="data/img2.png" width="722.775" height="50.106" alt=""/></div><div id="spr7_f853e06" style="left:0.65px;top:40.368px;"><img id="img3_f853e06" src="data/img3.png" width="723.63" height="41.02" alt=""/></div></div></div><div id="spr2_f853e06" class="kern"><div id="spr8_f853e06" style="left:36px;top:55.44px;"><div style="width:0px;"><span id="txt0_f853e06" data-width="302.148438" style="top:23.675px;">Syllabus Points</span></div></div><div id="spr9_f853e06" style="left:46px;top:156px;"><img id="img4_f853e06" src="data/img6.png" width="618" height="332" alt="Energy is conserved in isolated systems and is transferred from one object to another when a force is applied over a distance; this causes work to be done and changes the kinetic (Ek) and/or potential (Ep) energy of objects\
+This includes applying the relationships\
+\
+ 𝐸 𝑘 = 1 2 𝑚 𝑣 2           𝐸 𝑝 =𝑚𝑔∆ℎ      𝑊=𝐹𝑠        𝑊=∆𝐸\
+\
+Power is the rate of doing work or transferring energy\
+This includes applying the relationship\
+\
+𝑃= 𝑊 𝑡 = ∆𝐸 𝑡 =𝐹 𝑣 𝑎𝑣 "/></div></div></div>');})();

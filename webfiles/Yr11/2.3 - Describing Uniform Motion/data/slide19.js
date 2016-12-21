@@ -1,0 +1,7 @@
+(function(){var loadHandler=window['sl_{5CE09E73-270C-460C-BD0D-0E09B8FDE117}'];loadHandler&&loadHandler(18, '<div id="spr0_f84ac93"><div id="spr1_f84ac93" class="kern"><img id="img5_f84ac93" src="data/img7.png" width="720px" height="540px" alt="" style="left:0px;top:0px;"/><div id="spr3_f84ac93" style="left:-0.75px;top:-0.563px;"><img id="img0_f84ac93" src="data/img0.png" width="721.5" height="82" alt=""/></div><div id="spr4_f84ac93" style="left:345px;top:-0.563px;"><img id="img1_f84ac93" src="data/img1.png" width="375" height="47.812" alt=""/></div><div id="spr5_f84ac93" style="left:-2.751px;top:-1.714px;"><div id="spr6_f84ac93" style="left:0.001px;top:34.523px;"><img id="img2_f84ac93" src="data/img2.png" width="722.775" height="50.106" alt=""/></div><div id="spr7_f84ac93" style="left:0.65px;top:40.368px;"><img id="img3_f84ac93" src="data/img3.png" width="723.63" height="41.02" alt=""/></div></div></div><div id="spr2_f84ac93" class="kern"><div id="spr8_f84ac93" style="left:36px;top:55.44px;"><div style="width:0px;"><span id="txt0_f84ac93" data-width="375.000000" style="top:23.675px;">Change in Velocity</span></div></div><div id="spr9_f84ac93" style="left:44px;top:164px;"><img id="img4_f84ac93" src="data/img13.png" width="627" height="272" alt="∆𝒗=𝒗−𝒖\
+\
+If you subtract a vector, you can add the opposite vector instead.\
+Also, if you have a negative number, this means opposite direction\
+\
+It is often helpful to designate a ‘positive’ direction\
+"/></div></div></div>');})();
