@@ -1,0 +1,8 @@
+(function(){var loadHandler=window['sl_{CC1BD127-7740-4FFC-ACB6-7417008BBC5D}'];loadHandler&&loadHandler(9, '<div id="spr0_1f095f61"><div id="spr1_1f095f61" class="kern"><img id="img5_1f095f61" src="data/img7.png" width="720px" height="540px" alt="" style="left:0px;top:0px;"/><div id="spr3_1f095f61" style="left:-0.75px;top:-0.563px;"><img id="img0_1f095f61" src="data/img0.png" width="721.5" height="82" alt=""/></div><div id="spr4_1f095f61" style="left:345px;top:-0.563px;"><img id="img1_1f095f61" src="data/img1.png" width="375" height="47.812" alt=""/></div><div id="spr5_1f095f61" style="left:-2.751px;top:-1.714px;"><div id="spr6_1f095f61" style="left:0.001px;top:34.523px;"><img id="img2_1f095f61" src="data/img2.png" width="722.775" height="50.106" alt=""/></div><div id="spr7_1f095f61" style="left:0.65px;top:40.368px;"><img id="img3_1f095f61" src="data/img3.png" width="723.63" height="41.02" alt=""/></div></div></div><div id="spr2_1f095f61" class="kern"><div id="spr8_1f095f61" style="left:36px;top:55.44px;"><div style="width:0px;"><span id="txt0_1f095f61" data-width="537.670898" style="top:23.675px;">Calculating Binding energy</span></div></div><div id="spr9_1f095f61" style="left:35px;top:163px;"><img id="img4_1f095f61" src="data/img19.png" width="560" height="286" alt="After finding the mass defect there are two ways to calculate the binding energy:\
+\
+If your mass defect is in atomic mass units (u) then:\
+∆𝐸=931𝑚 𝑀𝑒𝑉\
+\
+If your mass defect is in kilograms (kg) then:\
+∆𝐸=∆𝑚 𝑐 2  𝐽𝑜𝑢𝑙𝑒𝑠 \
+"/></div></div></div>');})();
