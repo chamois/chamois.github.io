@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<learningObjectScript>
+
+	<subtitle>What is DNA?</subtitle>
+
+	<node id="2_1" view="intro_2_1" type="statement">
+
+		<statement>
+			<![CDATA[DNA contains the instructions for most of an organism's characteristics. It is the hereditary material of all living things.<br><br>DNA is short for <b>deoxyribonucleic acid</b>.]]>
+		</statement>
+
+	</node>
+
+
+	<node id="2_2" view="intro_2_2" type="statement">
+
+		<statement>
+			<![CDATA[It is so small that its structure cannot be seen even by powerful microscopes.<br><br>So how did scientists discover how DNA is built and how it works?]]>
+		</statement>
+
+	</node>
+
+
+	<node id="2_3" view="intro_2_3" type="statement">
+
+		<statement>
+			<![CDATA[In the 1800s, biologists studying stained plant cells under a microscope observed rods in the nucleus of each cell. This was the discovery of chromosomes.<br><br>In the following decades, scientists were able to find a substance they called 'nucleic acid', which can exist in the form of chromosomes. This substance is what we now call DNA.]]>
+		</statement>
+
+	</node>
+
+
+	<node id="2_4" view="fiveElements" type="statement">
+
+		<statement>
+			<![CDATA[Next, scientists wanted to know what components or parts make up DNA. Chemical analysis had revealed that it consisted of only five elements &endash; oxygen, carbon, hydrogen, nitrogen and phosphorus.<br><br>But since it was impossible to see DNA, its structure was still a mystery. How were these chemical elements arranged?]]>
+		</statement>
+
+	</node>
+
+	<node id="2_5" view="sixMolecules" type="statement">
+
+		<statement>
+			<![CDATA[By 1929, it was discovered that DNA could be broken down into six components:<br>&#8226; <textformat blockindent='13'>deoxyribose (sugar)</textformat><br>&bull; <textformat blockindent='13'>phosphate</textformat><br>&bull; <textformat blockindent='13'>four types of chemicals called <b>bases</b>: thymine, adenine, cytosine and guanine.</textformat><br><br>Trying to work out how these components fit together to form the structure of DNA was like solving a very difficult 3-D jigsaw puzzle.]]>
+		</statement>
+
+	</node>
+
+	<node id="2_6" view="simpleDNA" type="statement">
+
+		<statement>
+			<![CDATA[Then a breakthrough came in the early 1950s. Using a process called X-ray crystallography, it was deduced that DNA had the shape of a double helix &endash; a sort of spiral ladder.<br><br>The remaining piece in the puzzle was to figure out how the six components were assembled within the structure of a double helix. ]]>
+		</statement>
+
+	</node>
+
+	<node id="2_7" view="dnaDrag" type="drag">
+
+		<question>
+			<![CDATA[Your task is to try to find the structure of DNA.<br><br>Let's start with the spiral chain making up the 'backbone' of DNA.<br><br>See if you can assemble the backbone of this small section of DNA by moving DNA components into position. Start at the bottom and work your way up.<br><br>Here are some hints:<br>&#8226; <textformat blockindent='13'>Only two of the components are needed to build this backbone.</textformat><br>&#8226; <textformat blockindent='13'>They are arranged in a simple repeating pattern.</textformat>]]>
+		</question>
+
+		<feedback>
+
+			<incorrect>That component doesn't belong in the backbone.</incorrect>
+
+			<incorrect_phosphate>Phosphate belongs in the backbone, but not in this position.</incorrect_phosphate>
+
+			<incorrect_remember><![CDATA[That's not it.<br><br>Only two of the components are needed in the backbone.]]></incorrect_remember>
+
+			<incorrect_noDoubles><![CDATA[That's not it.<br><br>The backbone has two components with a simple repeating pattern.]]></incorrect_noDoubles>
+		
+		</feedback>
+
+	</node>
+
+	<node id="2_8" view="dnaDrag_complete" type="correct">
+
+		<statement>
+			<![CDATA[Congratulations, you've found the pattern.]]>
+		</statement>
+		
+	</node>
+
+	<node id="2_9" view="dnaDrag_complete" type="statement">
+
+		<statement>
+			<![CDATA[Scientists also discovered that the sugar&endash;phosphate backbone of the double helix is connected by 'rungs' known as <b>base pairs</b>. <br><br>To find the components that make up the base pairs, we're going to untwist the helix so that it is easier to build.]]>
+		</statement>
+		
+	</node>
+
+	<node id="2_10" view="rungDrag" type="drag">
+
+		<question>
+			<![CDATA[The base pairs of the DNA are made up of different components.<br><br>Your task is to construct the base pairs of the DNA by moving the correct bases into position.<br><br>Hint: only certain bases will pair up.]]>
+		</question>
+
+		<feedback>
+
+			<incorrect_0><![CDATA[That's not it.<br><br>Only certain bases will pair up.]]></incorrect_0>
+
+			<incorrect_A><![CDATA[That's not right.<br><br>Adenine will only pair up with thymine.]]></incorrect_A>
+
+			<incorrect_T><![CDATA[That's not right.<br><br>Thymine will only pair up with adenine.]]></incorrect_T>
+
+			<incorrect_C><![CDATA[That's not right.<br><br>Cytosine will only pair up with guanine.]]></incorrect_C>
+
+			<incorrect_G><![CDATA[That's not right.<br><br>Guanine will only pair up with cytosine.]]></incorrect_G>
+		
+		</feedback>
+
+	</node>
+
+	<node id="2_11" view="rungDrag" type="correct2">
+
+		<statement1>
+			<![CDATA[Congratulations, you've found how the four bases pair up to form <b>base pairs</b>. Each rung between the sugar&endash;phosphate backbones is made from a pair of bases held together by hydrogen bonds.<br><br>The particular shapes of the bases allow the hydrogen bonds to form, increasing the attraction between adenine and thymine, and cytosine and guanine.]]>
+		</statement1>
+		
+		<statement2>
+			<![CDATA[Congratulations, you've found how two of the bases pair up.<br><br>Now try using all four bases to form the rungs.]]>
+		</statement2>
+		
+		<feedback>
+
+			<incorrect_0><![CDATA[That's not it.<br><br>Only certain bases will pair up.]]></incorrect_0>
+
+			<incorrect_A><![CDATA[That's not right.<br><br>Adenine will only pair up with thymine.]]></incorrect_A>
+
+			<incorrect_T><![CDATA[That's not right.<br><br>Thymine will only pair up with adenine.]]></incorrect_T>
+
+			<incorrect_C><![CDATA[That's not right.<br><br>Cytosine will only pair up with guanine.]]></incorrect_C>
+
+			<incorrect_G><![CDATA[That's not right.<br><br>Guanine will only pair up with cytosine.]]></incorrect_G>
+		
+		</feedback>
+
+	</node>
+
+	<node id="2_11b" view="rungDrag_complete" type="statement">
+
+		<statement>
+			<![CDATA[A unit formed by a phosphate, a sugar and its connected base is called a <b>nucleotide</b>.]]>
+		</statement>
+		
+	</node>
+
+	<node id="2_12" view="matchBases_1" type="drag">
+
+		<question>
+			<![CDATA[Here is a strand of DNA.<br><br>To test your knowledge of the structure of DNA, build the other strand of this section by moving the nucleotides into position to form base pairs. The strand that you are building is called the complementary DNA strand.]]>
+		</question>>
+
+		<feedback>
+
+			<incorrect_0><![CDATA[That's not it.<br><br>Only certain bases will pair up.]]></incorrect_0>
+
+			<incorrect_A><![CDATA[That's not right.<br><br>Adenine will only pair up with thymine.]]></incorrect_A>
+
+			<incorrect_T><![CDATA[That's not right.<br><br>Thymine will only pair up with adenine.]]></incorrect_T>
+
+			<incorrect_C><![CDATA[That's not right.<br><br>Cytosine will only pair up with guanine.]]></incorrect_C>
+
+			<incorrect_G><![CDATA[That's not right.<br><br>Guanine will only pair up with cytosine.]]></incorrect_G>
+		
+		</feedback>
+
+	</node>
+
+	<node id="2_13" view="matchBases_1" type="correct">
+
+		<statement>
+			<![CDATA[Well done!<br><br>This section of DNA shows only ten base pairs. To give you an idea of the complexity of DNA, a gene can have hundreds of base pairs.]]>
+		</statement>
+
+	</node>
+
+	<node id="2_14" view="matchBases_1" type="statement">
+
+		<statement>
+			<![CDATA[The complexity doesn't stop there. For example, humans normally have 46 chromosomes, and each chromosome carries a different number of genes. <br><br>In humans, one chromosome carries approximately 800 genes, whereas another carries approximately 2500 genes.]]>
+		</statement>
+
+	</node>
+
+	<node id="2_22" view="summary" type="summary">
+
+		<question>
+			<![CDATA[Choose the correct statements from the list.]]>
+		</question>
+
+		<check_group entries="5" correct="10001">
+			<option_1>A nucleotide is made up of a sugar, a phosphate and a base.</option_1>
+			<option_2>Base pairs form a complex repeating pattern.</option_2>
+			<option_3>The structure of DNA is clearly visible through a powerful microscope.</option_3>
+			<option_4>DNA is made up of four components.</option_4>
+			<option_5><![CDATA[DNA is made from five elements &endash; oxygen, carbon, hydrogen, nitrogen and phosphorus.]]></option_5>
+		</check_group>
+
+		<feedback>
+
+			<incorrect_1_0><![CDATA[None of the statements you have selected are correct.]]></incorrect_1_0>
+			<incorrect_1_n><![CDATA[At least one of the statements you have selected is incorrect. ]]></incorrect_1_n>
+			<incorrect_1_n_one><![CDATA[The statement you have selected is not correct.]]></incorrect_1_n_one>
+			<incorrect_1_m><![CDATA[You have not selected all the correct statements.]]></incorrect_1_m>
+			<incorrect_2_0><![CDATA[None of the statements you have selected are correct.<br><br>Read the statements again carefully. You can also use <b>Back</b> to review any information you're not sure about.]]></incorrect_2_0>
+			<incorrect_2_n><![CDATA[At least one of the statements you have selected is incorrect.<br><br>Read the statements again carefully. You can also use <b>Back</b> to review any information you're not sure about.]]></incorrect_2_n>
+			<incorrect_2_n_one><![CDATA[The statement you've selected is not correct.<br><br>Read the statements again carefully. You can also use <b>Back</b> to review any information you're not sure about.]]></incorrect_2_n_one>
+			<incorrect_2_m><![CDATA[You haven't selected all the correct statements.<br><br>Read the statements again carefully and see if you can find the rest. You can also use <b>Back</b> to review any information you're not sure about.]]></incorrect_2_m>
+			<incorrect_3_0><![CDATA[None of the statements you've selected are correct.<br><br>Let's take a look at the correct statements.]]></incorrect_3_0>
+			<incorrect_3_n><![CDATA[At least one of the statements you have selected is incorrect.<br><br>Let's take a look at the correct statements.]]></incorrect_3_n>
+			<incorrect_3_n_one><![CDATA[The statement you've selected is not correct.<br><br>Let's take a look at the correct statements.]]></incorrect_3_n_one>
+			<incorrect_3_m><![CDATA[You haven't selected <b>all</b> the correct statements.<br><br>Let's take a look at all the correct statements.]]></incorrect_3_m>
+
+			<correct>
+				<![CDATA[Congratulations! You have finished this activity.<br><br>You have found out what DNA is composed of and its structure. DNA is the hereditary material of all living organisms, and its complexity allows for the amazing diversity of life on Earth.<br><br>Select <b>Main menu</b> to choose the next activity.]]>
+			</correct>
+
+		</feedback>
+
+	</node>
+
+</learningObjectScript>

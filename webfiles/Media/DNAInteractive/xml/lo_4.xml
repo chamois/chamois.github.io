@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<learningObjectScript>
+
+	<subtitle>Protein synthesis</subtitle>
+
+	<node id="4_1" view="intro_4_1" type="statement">
+
+		<statement>
+			<![CDATA[Proteins are essential for making your body function. They are needed for hair growth, for controlling the level of sugar in your blood and for thousands of other vital functions.<br><br>But how does your body know which proteins to create?]]>
+		</statement>
+
+	</node>
+
+	<node id="4_2" view="strandsOfDNA" type="statement">
+
+		<statement>
+			<![CDATA[A <b>gene</b> is a segment of DNA that provides a blueprint for a particular protein. The genes within your <b>DNA</b> contain the instructions for most of the proteins your body needs.<br><br>The proteins made from the gene blueprint can determine some of the characteristics of an organism.]]>
+		</statement>
+
+	</node>
+
+	<node id="4_3" view="strandsOfDNA2" type="statement">
+
+		<statement>
+			<![CDATA[DNA is found in the nucleus of a cell.<br><br>But proteins can only be made outside the nucleus, in the cell's cytoplasm.<br><br>]]>
+		</statement>
+
+	</node>
+
+	<node id="4_4" view="intro4_2" type="radioGroup">
+
+		<question>
+			<![CDATA[So how do you think the DNA gets the information about building proteins to the cytoplasm?]]>
+		</question>
+
+		<radio_group entries="3" correct="3">
+			<option_1>The DNA moves into the cytoplasm briefly.</option_1>
+			<option_2>The DNA moves to the edge of the nucleus.</option_2>
+			<option_3>The DNA sends a messenger into the cytoplasm.</option_3>
+		</radio_group>
+
+		<feedback>
+
+			<incorrect_1_0><![CDATA[That's not it.<br><br>DNA is too large to get through the membrane of the nucleus.]]></incorrect_1_0>
+
+			<incorrect_2_0><![CDATA[That's not it.<br><br>DNA doesn't move to the edge of the nucleus.]]></incorrect_2_0>
+
+			<incorrect_2><![CDATA[That's still not right.<br><br>In fact, the DNA sends a messenger into the cytoplasm.]]></incorrect_2>
+		
+		</feedback>
+
+	</node>
+
+	<node id="4_4c" view="intro_4_4" type="correct">
+
+		<statement>
+			<![CDATA[Correct!<br><br>The DNA transmits the instructions to the cytoplasm by creating a molecule called <b>messenger ribonucleic acid <br>(mRNA)</b>, which can travel through the tiny pores of the membrane surrounding the nucleus.]]>
+		</statement>
+
+	</node>
+
+	<node id="4_5" view="intro_4_4b" type="statement">
+
+		<statement>
+			<![CDATA[You are going to create the <b>messenger RNA (mRNA)</b> to send to the cytoplasm in order to build a protein. Protein building is also called <b>protein synthesis</b>.<br><br>To simplify your task, the DNA helix has been untwisted.]]>
+		</statement>
+
+	</node>
+
+	<node id="4_6" view="intro_4_5" type="statement">
+
+		<statement>
+			<![CDATA[To start the process, we need an enzyme called <b>RNA polymerase</b>.<br><br>This enzyme locks onto the DNA and 'unzips' the base pairs one rung at a time.]]>
+		</statement>
+
+	</node>
+
+	<node id="4_7" view="intro_4_5b" type="statement">
+
+		<statement>
+			<![CDATA[As in the process of DNA replication, unzipping the two strands will allow other bases to pair up with one side of the DNA strand.<br><br>This is how messenger RNA is formed.]]>
+		</statement>
+
+	</node>
+
+	<node id="4_8" view="intro_4_6" type="statement">
+
+		<statement>
+			<![CDATA[To create the messenger RNA, the polymerase enzyme takes the spare nucleotides in the nucleus.<br><br>The nucleotides are shown in the key.]]>
+		</statement>
+
+	</node>
+
+	<node id="4_9a" view="intro_4_6" type="statement">
+
+		<statement sequence="CTTAAATCTTCTGTAGGGACCTAAC">
+			<![CDATA[RNA strands are similar to DNA strands, but there is an important difference.<br><br>RNA never contains thymine (<b>T</b>). In its place, RNA contains a similar base called uracil (<b>U</b>).]]>
+		</statement>
+
+	</node>
+
+	<node id="4_9" view="acceptReject_4_1" type="drag">
+
+		<question sequence="CTTAAATCTTCTGTAGGGACCTAAC">
+			<![CDATA[Let's start building the messenger RNA.<br><br>When messenger RNA is being built from DNA:<br>&#8226; <textformat blockindent='13'>The base guanine (<b>G</b>) pairs with cytosine (<b>C</b>).</textformat><br>&#8226; <textformat blockindent='13'>Thymine (<b>T</b>) on the DNA strand pairs with adenine (<b>A</b>) on the mRNA strand.</textformat><br>&#8226; <textformat blockindent='13'>Adenine (<b>A</b>) on the DNA strand pairs with uracil (<b>U</b>) &endash; not thymine &endash; on the mRNA strand.</textformat><br><br>Use <b>Accept</b> or <b>Reject</b> to pair up the correct nucleotides to make the mRNA strand.]]>
+		</question>
+
+		<feedback>
+
+			<incorrect_0><![CDATA[That's not it.<br><br>Only certain bases will pair up.]]></incorrect_0>
+
+			<incorrect_2><![CDATA[That's not it. <br><br>These bases belong together. You should select <b>Accept</b>.]]></incorrect_2>
+
+			<incorrect_A><![CDATA[That's not right.<br><br>Adenine on the DNA strand will only pair up with uracil on the mRNA strand.]]></incorrect_A>
+
+			<incorrect_U><![CDATA[That's not right.<br><br>Uracil on the mRNA strand will only pair up with adenine on the DNA strand.]]></incorrect_U>
+
+			<incorrect_T><![CDATA[That's not right.<br><br>Thymine on the DNA strand will only pair up with adenine on the mRNA strand.]]></incorrect_T>
+
+			<incorrect_C><![CDATA[That's not right.<br><br>Cytosine on the DNA strand will only pair up with guanine on the mRNA strand.]]></incorrect_C>
+
+			<incorrect_G><![CDATA[That's not right.<br><br>Guanine on the DNA strand will only pair up with cytosine on the mRNA strand.]]></incorrect_G>
+		
+		</feedback>
+
+	</node>
+
+	<node id="4_10" view="acceptReject_4_1" type="correct">
+
+		<statement>
+			<![CDATA[Well done. The new strand you've created is the messenger RNA (mRNA).<br><br>This process is called <b>transcription</b>.]]>
+		</statement>
+
+	</node>
+
+	<node id="4_11" view="acceptReject_4_2" type="statement">
+
+		<statement>
+			<![CDATA[The messenger RNA is a mirror image of the sequence of bases in the gene, which means it contains the information coded by the gene.<br><br>This diagram shows only a small part of the messenger RNA, which, like the gene it has transcribed, could be hundreds or thousands of bases long.]]>
+		</statement>
+
+	</node>
+
+	<node id="4_12" view="mRNA" type="statement">
+
+		<statement>
+			<![CDATA[Since it is a smaller structure than DNA, the mRNA strand is able to pass through the small pores in the nucleus wall.<br><br>It enters the cytoplasm, carrying the information needed to build the protein.]]>
+		</statement>
+
+	</node>
+
+	<node id="4_13" view="ribosome_1" type="statement">
+
+		<statement>
+			<![CDATA[Proteins are very large molecules made by bonding together smaller molecules called <b>amino acids</b>. There are about 20 different amino acids. Each different protein contains its own unique sequence of these amino acids.<br><br>Once in the cytoplasm, an assembly of molecules called a <b>ribosome</b> attaches to the mRNA.<br><br>Its task is to read the message encoded in the mRNA to determine the chain of amino acids needed to create the protein.]]>
+		</statement>
+
+	</node>
+
+	<node id="4_14" view="ribosome_2" type="statement">
+
+		<statement>
+			<![CDATA[The cytoplasm also contains <b>transfer RNA (tRNA)</b> molecules. Each tRNA molecule carries a sequence of three bases attached to an amino acid.<br><br>The three bases on the tRNA molecule (the <b>anticodon</b>) pair up with sequences of three bases on the mRNA (the <b>codon</b>).<br><br>The job of the ribosome is to pair up the codons with anticodons.]]>
+		</statement>
+
+	</node>
+
+	<node id="4_16" view="ribosomeFit_1" type="drag">
+
+		<question>
+			<![CDATA[Your task is to take on the role of the ribosome and pair the codons of the mRNA with the correct tRNA anticodons.<br><br>Each tRNA molecule carries an amino acid that is needed to create a protein. Select the correct tRNA molecule for the messenger RNA by pairing up the bases.]]>
+		</question>
+
+		<feedback>
+
+			<incorrect><![CDATA[That's not it.<br><br>Use the shape of the bases in the codon and anticodon to help you. Only certain bases will pair up.]]></incorrect>
+
+		</feedback>
+
+	</node>
+
+	<node id="4_17" view="ribosomeFit_1" type="correct">
+
+		<statement>
+			<![CDATA[Well done!<br><br>As each codon is matched, the ribosome moves along the mRNA to the next one.]]>
+		</statement>
+
+	</node>
+
+	<node id="4_18" view="ribosomeFit_1" type="drag">
+
+		<question>
+			<![CDATA[Look at the next codon in the messenger RNA.<br><br>Select the tRNA molecule it will pair up with.]]>
+		</question>
+
+		<feedback>
+
+			<incorrect><![CDATA[That's not it.<br><br>Use the shape of the bases in the codon and anticodon to help you. Only certain bases will pair up.]]></incorrect>
+
+		</feedback>
+
+	</node>
+
+	<node id="4_19" view="ribosomeFit_1" type="correct">
+
+		<statement>
+			<![CDATA[Good work.<br><br>As each anticodon is paired with a codon, its amino acid is added, producing a long chain.<br><br>Eventually, this builds a protein molecule. The properties of the protein depend on which amino acids are present, and what order they are in.]]>
+		</statement>
+
+	</node>
+
+	<node id="4_20" view="ribosomeFit_1" type="drag">
+
+		<question>
+			<![CDATA[Keep attaching the tRNA molecules to the messenger RNA until the protein is complete.]]>
+		</question>
+
+		<feedback>
+
+			<incorrect><![CDATA[That's not it.<br><br>Use the shape of the bases in the codon and anticodon to help you. Only certain bases will pair up.]]></incorrect>
+
+		</feedback>
+
+	</node>
+
+	<node id="4_21" view="ribosomeFit_1" type="correct">
+
+		<statement>
+			<![CDATA[Well done!<br><br>You've modelled protein synthesis in a cell and completed the protein.]]>
+		</statement>
+
+	</node>
+
+	<node id="4_22" view="ribosomeFit_2" type="statement">
+
+		<statement>
+			<![CDATA[This is only a small section of a protein. Most protein molecules average around 300 amino acids in length. Some can contain many thousands of amino acids.<br><br>In a real protein, the long chain of amino acids folds into a unique three-dimensional structure.]]>
+		</statement>
+
+	</node>
+
+	<node id="4_23" view="ribosomeFit_3" type="statement">
+
+		<statement>
+			<![CDATA[The proteins created through protein synthesis are either used by the cell or transported to other parts of the organism to assist in other life functions.]]>
+		</statement>
+
+	</node>
+
+	<node id="4_24" view="summary" type="summary">
+
+		<question>
+			<![CDATA[Choose the correct statements from the list.]]>
+		</question>
+
+		<check_group entries="5" correct="10101">
+			<option_1>Proteins are made up of chains of amino acids.</option_1>
+			<option_2>Transcription occurs in the cell's cytoplasm.</option_2>
+			<option_3>There are 20 different amino acids used to create proteins.</option_3>
+			<option_4>Proteins are made up of chains of anticodons.</option_4>
+			<option_5>Ribosomes translate the message encoded in the mRNA into a chain of amino acids.</option_5>
+		</check_group>
+
+		<feedback>
+
+			<incorrect_1_0><![CDATA[None of the statements you have selected are correct.]]></incorrect_1_0>
+			<incorrect_1_n><![CDATA[At least one of the statements you have selected is incorrect. ]]></incorrect_1_n>
+			<incorrect_1_n_one><![CDATA[The statement you have selected is not correct.]]></incorrect_1_n_one>
+			<incorrect_1_m><![CDATA[You have not selected all the correct statements.]]></incorrect_1_m>
+			<incorrect_2_0><![CDATA[None of the statements you have selected are correct.<br><br>Read the statements again carefully. You can also use <b>Back</b> to review any information you're not sure about.]]></incorrect_2_0>
+			<incorrect_2_n><![CDATA[At least one of the statements you have selected is incorrect.<br><br>Read the statements again carefully. You can also use <b>Back</b> to review any information you're not sure about.]]></incorrect_2_n>
+			<incorrect_2_n_one><![CDATA[The statement you've selected is not correct.<br><br>Read the statements again carefully. You can also use <b>Back</b> to review any information you're not sure about.]]></incorrect_2_n_one>
+			<incorrect_2_m><![CDATA[You haven't selected all the correct statements.<br><br>Read the statements again carefully and see if you can find the rest. You can also use <b>Back</b> to review any information you're not sure about.]]></incorrect_2_m>
+			<incorrect_3_0><![CDATA[None of the statements you've selected are correct.<br><br>Let's take a look at the correct statements.]]></incorrect_3_0>
+			<incorrect_3_n><![CDATA[At least one of the statements you have selected is incorrect.<br><br>Let's take a look at the correct statements.]]></incorrect_3_n>
+			<incorrect_3_n_one><![CDATA[The statement you've selected is not correct.<br><br>Let's take a look at the correct statements.]]></incorrect_3_n_one>
+			<incorrect_3_m><![CDATA[You haven't selected <b>all</b> the correct statements.<br><br>Let's take a look at all the correct statements.]]></incorrect_3_m>
+
+			<correct>
+				<![CDATA[Congratulations! You have finished this activity.<br><br>You have seen how the information carried by DNA can be transferred outside the nucleus by messenger RNA. This allows cells to build the proteins needed for vital life functions in a process called protein synthesis.<br><br>Select <b>Main menu</b> to choose the next activity.]]>
+			</correct>
+
+		</feedback>
+
+
+	</node>
+
+</learningObjectScript>

@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<learningObjectScript>
+
+	<subtitle>Gene splicing</subtitle>
+
+	<node id="5_1" view="intro_5_1" type="statement">
+
+		<statement>
+			<![CDATA[People with diabetes produce little or no insulin (a protein produced by the pancreas that controls the body's absorption of sugar). They need to take insulin to control the condition. But where can they get the insulin they need?<br><br>Scientists and drug companies use a process called <b>gene splicing</b> to insert the gene responsible for the production of insulin into another organism. The organism can then be grown to create the insulin required to assist diabetics.]]>
+		</statement>
+
+	</node>
+
+	<node id="5_2" view="intro_5_2" type="statement">
+
+		<statement>
+			<![CDATA[You are going to investigate the process of gene splicing to produce insulin.<br><br>The first step is to remove the gene we need from the <b>DNA</b>. To do this we will use a <b>restriction enzyme</b>. These enzymes, which come from bacteria, can act like molecular scissors.<br><br>Restriction enzymes 'cut' when they recognise a sequence of four to six base pairs within the DNA.]]>
+		</statement>
+
+	</node>
+
+	<node id="5_3" view="longStrandsofDNA_1" type="cut">
+
+		<question>
+			<![CDATA[There are many restriction enzymes. You will test four of them to find the most suitable one for this application.<br><br>In this simplified DNA model, the gene we want is highlighted. The DNA needs to be cut in two places so we can remove the gene we need.<br><br>Select a <b>Restriction enzyme</b> to begin.]]>
+		</question>
+
+	</node>
+
+	<node id="5_4" view="longStrandsofDNA_1" type="cut">
+
+		<question>
+			<![CDATA[Select another <b>Restriction enzyme</b> to test.]]>
+		</question>
+
+	</node>
+
+	<node id="5_5" view="longStrandsofDNA_1" type="radioGroup">
+
+		<question>
+			<![CDATA[Is this restriction enzyme suitable for removing the gene we need?]]>
+		</question>
+
+		<radio_group entries="4" correct="1,2,3,4">
+			<option_1>No, it has cut the wrong part of the DNA and has missed the gene we wish to transfer.</option_1>
+			<option_2>No, it has cut the DNA in the right place, on either side of the gene, but the section of DNA has blunt (even) ends.</option_2>
+			<option_3>No, it has cut through the gene we wish to transfer.</option_3>
+			<option_4>Yes, it has cut the DNA on either side of the gene, leaving a slight overlap.</option_4>
+		</radio_group>
+
+		<feedback>
+
+			<incorrect_1_1><![CDATA[That's not it.<br><br>Look at where the gene we want to remove is.]]></incorrect_1_1>
+
+			<incorrect_1_2><![CDATA[That's not right.<br><br>Is the target gene in the section of DNA cut out by this enzyme?]]></incorrect_1_2>
+
+			<incorrect_1_3><![CDATA[That's still not right.<br><br>It has cut through the wrong part of the DNA and has missed the gene we wish to transfer.]]></incorrect_1_3>
+		
+			
+			<incorrect_2_1><![CDATA[That's not it.<br><br>This restriction enzyme has cut in the right place, but has cut straight across the DNA sequence, leaving blunt ends.<br><br>This would cause problems when we spliced the gene into another organism.]]></incorrect_2_1>
+
+			<incorrect_2_2><![CDATA[That's not right.<br><br>In gene splicing, the ends of the DNA segment should not be cut straight across.]]></incorrect_2_2>
+
+			<incorrect_2_3><![CDATA[That's still not right.<br><br>It has cut the DNA in the right place, on either side of the gene, but the section of DNA has blunt ends.]]></incorrect_2_3>
+
+			
+			<incorrect_3_1><![CDATA[That's not it.<br><br>Look at what has happened to the gene we wish to transfer.]]></incorrect_3_1>
+
+			<incorrect_3_2><![CDATA[That's not right.<br><br>Would the gene still function if it were cut like this?]]></incorrect_3_2>
+
+			<incorrect_3_3><![CDATA[That's still not right.<br><br>It has cut through the gene we wish to transfer.]]></incorrect_3_3>
+
+						
+			<incorrect_4_1><![CDATA[That's not it.<br><br>Look at where the gene we wish to transfer is and at the ends of the cut segment.]]></incorrect_4_1>
+
+			<incorrect_4_2><![CDATA[That's not right.<br><br>Is the target gene within the cut segment, leaving a slight overlap?]]></incorrect_4_2>
+
+			<incorrect_4_3><![CDATA[That's still not right.<br><br>It has cut the DNA on either side of the gene, leaving a slight overlap.]]></incorrect_4_3>
+
+		</feedback>
+
+	</node>
+
+	<node id="5_6" view="longStrandsofDNA_1" type="correct4">
+
+		<statement1>
+			<![CDATA[Correct!<br><br>This enzyme is not suitable. It has cut through the wrong part of the DNA and has missed the gene we wish to transfer.]]>
+		</statement1>
+
+		<statement2>
+			<![CDATA[Correct!<br><br>This enzyme is not suitable. It has cut the DNA at the right place, but has left blunt ends.<br><br>Blunt ends can result in the DNA segment being reversed when it is transferred into another DNA strand. This would result in the gene not functioning as it should.]]>
+		</statement2>
+
+		<statement3>
+			<![CDATA[Correct!<br><br>This enzyme is not suitable. It has cut through the gene we wish to transfer.<br><br>This would provide incomplete genetic instructions for the insulin we wish to produce.]]>
+		</statement3>
+
+		<statement4>
+			<![CDATA[Correct!<br><br>This enzyme is suitable. It has cut the DNA on either side of the gene, leaving a slight overlap.<br><br>The uneven ends of the segment are called <b>sticky ends</b>.]]>
+		</statement4>
+
+	</node>
+
+	<node id="5_7" view="longStrandofDNA_2" type="statement">
+
+		<statement>
+			<![CDATA[You have tested the four enzymes and found that only enzyme 4 is suitable for our purposes. This is the most suitable enzyme that allows us to extract the insulin gene from the DNA strand.<br><br>Select <b>Restriction enzyme 4</b> again to continue.]]>
+		</statement>
+
+	</node>
+
+
+	<node id="5_8" view="strandsOfDNA_2" type="statement">
+
+		<statement>
+			<![CDATA[Now this segment of DNA needs to be incorporated into the DNA from another organism.<br><br>This will allow us to duplicate the insulin gene many times very quickly.]]>
+		</statement>
+
+	</node>
+
+	<node id="5_9" view="plasmid" type="statement">
+
+		<statement>
+			<![CDATA[To transfer the gene, we will use a <b>plasmid</b>.<br><br>Plasmids are small circular DNA molecules found in bacteria. They can be used to transfer a gene from one organism to another.]]>
+		</statement>
+
+	</node>
+
+	<node id="5_10" view="whichEnzyme" type="radioGroup">
+
+		<question>
+			<![CDATA[Next, we need to use a restriction enzyme to insert our gene into the plasmid.<br><br>For a successful splice, the ends of the segment we cut out of the plasmid must match the ends of the segment carrying the insulin gene.<br><br>So which of the enzymes should we use?]]>
+		</question>
+
+		<radio_group entries="4" correct="4">
+			<option_1>Restriction enzyme 1</option_1>
+			<option_2>Restriction enzyme 2</option_2>
+			<option_3>Restriction enzyme 3</option_3>
+			<option_4>Restriction enzyme 4</option_4>
+		</radio_group>
+
+		<feedback>
+
+			<incorrect_1><![CDATA[That's not it.<br><br>Think about which enzyme would cut the plasmid in the same way as the segment of DNA we want to transfer.]]></incorrect_1>
+
+			<incorrect_2><![CDATA[That's not right.<br><br>Which restriction enzyme would cut the plasmid in the right place and leave sticky ends?]]></incorrect_2>
+
+			<incorrect_3><![CDATA[That's still not right.<br><br>The correct answer is restriction enzyme 4.]]></incorrect_3>
+	
+		</feedback>
+
+	</node>
+
+	<node id="5_11" view="whichEnzyme2" type="correct">
+
+		<statement>
+			<![CDATA[Correct!<br><br>The ends of the section removed from the plasmid match the ends of the DNA segment with the insulin gene.<br><br>This means they will successfully splice together.]]>
+		</statement>
+
+	</node>
+
+	<node id="5_12" view="screen30_1" type="statement">
+
+		<statement>
+			<![CDATA[The DNA segment can now be inserted into the plasmid. Its sticky ends help bind it to the plasmid DNA. Another enzyme called ligase must also be used to help reconnect the bonds of the DNA strands.<br><br>The resulting plasmid containing the spliced gene is called <b>recombinant DNA</b> (because two DNA sequences have been 'combined'.) ]]>
+		</statement>
+
+	</node>
+
+	<node id="5_12b" view="screen30_2" type="statement">
+
+		<statement>
+			<![CDATA[Finally, altered plasmids containing the insulin gene are inserted into bacteria, which are then grown in large quantities.<br><br>The bacteria produce the insulin that diabetics need.]]>
+		</statement>
+
+	</node>
+
+	<node id="5_13" view="summary" type="summary">
+
+		<question>
+			<![CDATA[Choose the correct statements from the list.]]>
+		</question>
+
+		<check_group entries="5" correct="01111">
+			<option_1>Plasmids are found in all cells.</option_1>
+			<option_2>Restriction enzymes act as molecular scissors on DNA.</option_2>
+			<option_3>Blunt ends on a segment of cut DNA can result in the segment being reversed when it is inserted into another DNA strand.</option_3>
+			<option_4>Recombinant DNA is created by gene splicing.</option_4>
+			<option_5>Plasmids are small circular DNA molecules found in bacteria.</option_5>
+		</check_group>
+
+		<feedback>
+
+			<incorrect_1_0><![CDATA[None of the statements you have selected are correct.]]></incorrect_1_0>
+			<incorrect_1_n><![CDATA[At least one of the statements you have selected is incorrect. ]]></incorrect_1_n>
+			<incorrect_1_n_one><![CDATA[The statement you have selected is not correct.]]></incorrect_1_n_one>
+			<incorrect_1_m><![CDATA[You have not selected all the correct statements.]]></incorrect_1_m>
+			<incorrect_2_0><![CDATA[None of the statements you have selected are correct.<br><br>Read the statements again carefully. You can also use <b>Back</b> to review any information you're not sure about.]]></incorrect_2_0>
+			<incorrect_2_n><![CDATA[At least one of the statements you have selected is incorrect.<br><br>Read the statements again carefully. You can also use <b>Back</b> to review any information you're not sure about.]]></incorrect_2_n>
+			<incorrect_2_n_one><![CDATA[The statement you've selected is not correct.<br><br>Read the statements again carefully. You can also use <b>Back</b> to review any information you're not sure about.]]></incorrect_2_n_one>
+			<incorrect_2_m><![CDATA[You haven't selected all the correct statements.<br><br>Read the statements again carefully and see if you can find the rest. You can also use <b>Back</b> to review any information you're not sure about.]]></incorrect_2_m>
+			<incorrect_3_0><![CDATA[None of the statements you've selected are correct.<br><br>Let's take a look at the correct statements.]]></incorrect_3_0>
+			<incorrect_3_n><![CDATA[At least one of the statements you have selected is incorrect.<br><br>Let's take a look at the correct statements.]]></incorrect_3_n>
+			<incorrect_3_n_one><![CDATA[The statement you've selected is not correct.<br><br>Let's take a look at the correct statements.]]></incorrect_3_n_one>
+			<incorrect_3_m><![CDATA[You haven't selected <b>all</b> the correct statements.<br><br>Let's take a look at all the correct statements.]]></incorrect_3_m>
+
+			<correct>
+				<![CDATA[Congratulations! You have finished this activity.<br><br>You have used gene splicing to transfer a desired gene to a different organism, creating recombinant DNA. This is one of the key techniques in genetic engineering. It is used to produce medicines, vaccines and genetically modified crops, among other uses.]]>
+			</correct>
+
+		</feedback>
+
+
+	</node>
+
+</learningObjectScript>

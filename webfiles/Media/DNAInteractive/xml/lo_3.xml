@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<learningObjectScript>
+
+	<subtitle>DNA replication</subtitle>
+
+	<node id="3_1" view="intro_3_1" type="statement">
+
+		<statement>
+			<![CDATA[The information encoded in DNA provides the genetic instructions for all an organism's cells for its entire life.<br><br>But how does the DNA get into new cells? Every organism begins life as a single cell. Survival depends on cells dividing, so an organism can grow and repair itself. This is called cell division: a cell divides to become two cells, which both divide to become four, then eight, then 16, and so on.<br><br>This process continues in some parts of an organism throughout its life.]]>
+		</statement>
+
+	</node>
+
+	<node id="3_2" view="intro_3_2" type="statement">
+
+		<statement>
+			<![CDATA[Before a cell can divide, the DNA inside its nucleus must make a copy of itself to go into each of the two new cells that will be created.<br><br>In the next activity, you will discover how this happens.]]>
+		</statement>
+
+	</node>
+
+	<node id="3_3" view="intro_3_3" type="statement">
+
+		<statement>
+			<![CDATA[Here is a simplified view of a section of DNA.<br><br>To start the process of copying the DNA (<b>replication</b>), a special enzyme called <b>helicase</b> attaches itself to the DNA and 'unzips' the molecule into two separate DNA strands.]]>
+		</statement>
+
+	</node>
+
+	<node id="3_4" view="intro_3_4" type="statement">
+
+		<statement>
+			<![CDATA[Then another enzyme called <b>polymerase</b> attaches to each of the separated strands (in the diagram, this is only shown for one strand).<br><br>The nucleus surrounding the DNA contains lots of spare nucleotides.<br><br>The polymerase completes a strand by pairing up the spare nucleotides to those in the existing strand. This creates a complementary copy of the DNA.]]>
+		</statement>
+
+	</node>
+
+	<node id="3_5" view="acceptReject_1" type="drag">
+
+		<question>
+			<![CDATA[Your task is to replicate this strand of DNA by acting as the polymerase.<br><br>To do this, you need to <b>Accept</b> or <b>Reject</b> nucleotides to form a correct base pair. The four bases on the nucleotides are adenine (<b>A</b>), thymine (<b>T</b>), guanine (<b>G</b>) and cytosine (<b>C</b>).<br><br>Each time you make a correct base pair, the DNA will progress one step in its replication.]]>
+		</question>
+
+		<feedback>
+
+			<incorrect_0><![CDATA[That's not it.<br><br>Only certain bases will pair up.]]></incorrect_0>
+
+			<incorrect_2><![CDATA[That's not it. <br><br>These bases belong together. You should select <b>Accept</b>.]]></incorrect_2>
+
+			<incorrect_A><![CDATA[That's not right.<br><br>Adenine will only pair up with thymine.]]></incorrect_A>
+
+			<incorrect_T><![CDATA[That's not right.<br><br>Thymine will only pair up with adenine.]]></incorrect_T>
+
+			<incorrect_C><![CDATA[That's not right.<br><br>Cytosine will only pair up with guanine.]]></incorrect_C>
+
+			<incorrect_G><![CDATA[That's not right.<br><br>Guanine will only pair up with cytosine.]]></incorrect_G>
+		
+		</feedback>
+
+	</node>
+
+	<node id="3_6" view="acceptReject_2" type="correct">
+
+		<statement>
+			<![CDATA[Well done! You've helped replicate this strand of DNA.<br><br>This is similar to what happens when real DNA replicates. The polymerase selects the correct nucleotide to complete the base pair. This creates a new copy of the DNA.]]>
+		</statement>
+		
+	</node>
+
+	<node id="3_7" view="acceptReject_2" type="statement">
+
+		<statement>
+			<![CDATA[This process is happening in your body right now.<br><br>Under optimum conditions, nucleotides can be paired up at a rate of about 1000 per second!<br><br>In this way, each new cell contains all the genetic information of the original cell. Usually, the replication process is error free. Mistakes sometimes happen, however, resulting in <b>mutations</b> (changes in the genetic code).]]>
+		</statement>
+
+	</node>
+
+	<node id="3_8" view="summary" type="summary">
+
+		<question>
+			<![CDATA[Choose the correct statements from the list.]]>
+		</question>
+
+		<check_group entries="6" correct="100100">
+			<option_1>A nucleotide with a thymine base will pair with a nucleotide with an adenine base.</option_1>
+			<option_2>A nucleotide with a cytosine base will pair with a nucleotide with a thymine base.</option_2>
+			<option_3>Polymerase bonds with helicase.</option_3>
+			<option_4>Polymerase is an enzyme that helps build new DNA.</option_4>
+			<option_5>One enzyme is needed for DNA replication.</option_5>
+			<option_6>Free nucleotides are randomly joined to the next available base.</option_6>
+		</check_group>
+
+		<feedback>
+
+			<incorrect_1_0><![CDATA[None of the statements you have selected are correct.]]></incorrect_1_0>
+			<incorrect_1_n><![CDATA[At least one of the statements you have selected is incorrect. ]]></incorrect_1_n>
+			<incorrect_1_n_one><![CDATA[The statement you have selected is not correct.]]></incorrect_1_n_one>
+			<incorrect_1_m><![CDATA[You have not selected all the correct statements.]]></incorrect_1_m>
+			<incorrect_2_0><![CDATA[None of the statements you have selected are correct.<br><br>Read the statements again carefully. You can also use <b>Back</b> to review any information you're not sure about.]]></incorrect_2_0>
+			<incorrect_2_n><![CDATA[At least one of the statements you have selected is incorrect.<br><br>Read the statements again carefully. You can also use <b>Back</b> to review any information you're not sure about.]]></incorrect_2_n>
+			<incorrect_2_n_one><![CDATA[The statement you've selected is not correct.<br><br>Read the statements again carefully. You can also use <b>Back</b> to review any information you're not sure about.]]></incorrect_2_n_one>
+			<incorrect_2_m><![CDATA[You haven't selected all the correct statements.<br><br>Read the statements again carefully and see if you can find the rest. You can also use <b>Back</b> to review any information you're not sure about.]]></incorrect_2_m>
+			<incorrect_3_0><![CDATA[None of the statements you've selected are correct.<br><br>Let's take a look at the correct statements.]]></incorrect_3_0>
+			<incorrect_3_n><![CDATA[At least one of the statements you have selected is incorrect.<br><br>Let's take a look at the correct statements.]]></incorrect_3_n>
+			<incorrect_3_n_one><![CDATA[The statement you've selected is not correct.<br><br>Let's take a look at the correct statements.]]></incorrect_3_n_one>
+			<incorrect_3_m><![CDATA[You haven't selected <b>all</b> the correct statements.<br><br>Let's take a look at all the correct statements.]]></incorrect_3_m>
+
+			<correct>
+				<![CDATA[Congratulations! You have finished this activity.<br><br>You have discovered how DNA replicates so that new cells carry a copy of the original cell's DNA. This process allows genetic information to be inherited, and can also lead to mutations.<br><br>Select <b>Main menu</b> to choose the next activity.]]>
+			</correct>
+
+		</feedback>
+
+
+	</node>
+
+</learningObjectScript>

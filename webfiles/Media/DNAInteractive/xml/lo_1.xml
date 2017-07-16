@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<learningObjectScript>
+
+	<subtitle>Introduction to genes</subtitle>
+
+	<warning>Are you sure you want to go to a new activity?</warning>
+
+	<labels>
+
+		<label>Organism</label>
+
+		<label>Cell</label>
+
+		<label>Nucleus</label>
+
+		<label>Chromosome</label>
+
+		<label>DNA</label>
+
+		<label>Gene</label>
+
+		<label>Atoms</label>
+
+	</labels>
+
+	<node id="1_0" view="intro_1_0" type="statement">
+
+		<statement>
+			<![CDATA[Although all living things look different, they have something in common &endash; genes.<br><br>But what are genes? What do they look like and where are they found?<br><br>Let's investigate one of these living things to find out.]]>
+		</statement>
+
+	</node>
+
+	<node id="1_1" view="intro_1_1" type="statement">
+
+		<statement>
+			<![CDATA[Close examination will show that this plant is built from smaller units, which are composed of even smaller parts, and so on &#8230;<br><br>Let's do an activity to work out the units that make up this plant.]]>
+		</statement>
+
+	</node>
+
+	<node id="1_2" view="organism" type="drag">
+
+		<question>
+			<![CDATA[Your task is to put these constituents of the plant into the correct order, from largest to smallest.<br><br>Start with the plant itself. Select the term that best describes the picture.]]>
+		</question>
+
+		<feedback>
+
+			<correct_missed>Make sure you drag the label to position 1.</correct_missed>
+
+			<incorrect_1><![CDATA[That's not it.<br><br>Review all the terms again to find the most appropriate one.]]></incorrect_1>
+
+			<incorrect_2><![CDATA[That's not right.<br><br>Look for the term that describes the whole plant.]]></incorrect_2>
+	
+			<incorrect_3><![CDATA[That's still not right.<br><br>The correct answer is <b>organism</b>.]]></incorrect_3>
+
+		</feedback>
+
+	</node>
+
+	<node id="1_3" view="organism" type="correct">
+
+		<statement>
+			<![CDATA[Correct!<br><br>This plant is an <b>organism</b>. All living things are organisms.]]>
+		</statement>
+
+	</node>
+
+	<node id="1_4" view="organism" type="drag">
+
+		<question>
+			<![CDATA[This is a magnified view inside the plant's leaf.<br><br>Select the term that you think best describes this constituent of the plant.]]>
+		</question>
+
+		<feedback>
+
+			<correct_missed>Make sure you drag the label to position 2.</correct_missed>
+
+			<incorrect_1><![CDATA[That's not it.<br><br>Review all the terms again to find the most appropriate one.]]></incorrect_1>
+
+			<incorrect_2><![CDATA[That's not right.<br><br>This image shows the basic unit that makes up all living things.]]></incorrect_2>
+	
+			<incorrect_3><![CDATA[That's still not right.<br><br>The correct answer is <b>cell</b>.]]></incorrect_3>
+
+		</feedback>
+
+	</node>
+
+	<node id="1_5" view="organism" type="correct">
+
+		<statement>
+			<![CDATA[Correct!<br><br>All organisms are composed of <b>cells</b>. Some only have one cell, but most living things have billions.]]>
+		</statement>
+
+	</node>
+
+	<node id="1_6" view="organism" type="drag">
+
+		<question>
+			<![CDATA[Now we've zoomed inside the plant cell to get a closer look at what it contains.<br><br>Select the term that you think best describes this part of the cell.]]>
+		</question>
+
+		<feedback>
+
+			<correct_missed>Make sure you drag the label to position 3.</correct_missed>
+
+			<incorrect_1><![CDATA[That's not it.<br><br>Review all the terms again to find the most appropriate one.]]></incorrect_1>
+
+			<incorrect_2><![CDATA[That's not right.<br><br>This is the control centre of the cell.]]></incorrect_2>
+	
+			<incorrect_3><![CDATA[That's still not right.<br><br>The correct answer is <b>nucleus</b>.]]></incorrect_3>
+	
+		</feedback>
+
+	</node>
+
+	<node id="1_7" view="organism" type="correct">
+
+		<statement>
+			<![CDATA[Correct!<br><br>This is the <b>nucleus</b> of the cell.<br><br>The nucleus is the cell's control centre.]]>
+		</statement>
+
+	</node>
+
+	<node id="1_8" view="organism" type="drag">
+
+		<question>
+			<![CDATA[This is a structure found inside the cell's nucleus.<br><br>Select the term that you think best describes this structure.]]>
+		</question>
+
+		<feedback>
+
+			<correct_missed>Make sure you drag the label to position 4.</correct_missed>
+
+			<incorrect_1><![CDATA[That's not it.<br><br>Review all the terms again to find the most appropriate one.]]></incorrect_1>
+
+			<incorrect_2><![CDATA[That's not right.<br><br>This structure in the nucleus contains genetic information.]]></incorrect_2>
+	
+			<incorrect_3><![CDATA[That's still not right.<br><br>The correct answer is <b>chromosome</b>.]]></incorrect_3>
+		
+		</feedback>
+
+	</node>
+
+	<node id="1_9" view="organism" type="correct">
+
+		<statement>
+			<![CDATA[Correct!<br><br>Within the nucleus of the cell there are small threadlike structures called <b>chromosomes</b>. They carry genetic information.<br><br>The number of chromosomes differs from species to species, but within a species it is usually the same. The nuclei of human cells normally contain 46 chromosomes.]]>
+		</statement>
+
+	</node>
+
+	<node id="1_10" view="organism" type="drag">
+
+		<question>
+			<![CDATA[Let's imagine we could zoom in for a closer view inside a chromosome. This is a structure found within a chromosome.<br><br>Select the term that you think best describes it.]]>
+		</question>
+
+		<feedback>
+
+			<correct_missed>Make sure you drag the label to position 5.</correct_missed>
+
+			<incorrect_1><![CDATA[That's not it.<br><br>Review all the terms again to find the most appropriate one.]]></incorrect_1>
+
+			<incorrect_2><![CDATA[That's not right.<br><br>This structure contains the complete genetic code of an organism.]]></incorrect_2>
+	
+			<incorrect_3><![CDATA[That's still not right.<br><br>The correct answer is <b>DNA</b>.]]></incorrect_3>
+		
+		</feedback>
+
+	</node>
+
+	<node id="1_11" view="organism" type="correct">
+
+		<statement>
+			<![CDATA[Correct!<br><br>Chromosomes contain tightly coiled strands of <b>DNA</b> (deoxyribonucleic acid      ).<br><br>DNA is a molecule made up of building blocks called nucleotides. DNA consists of two strands twisted into the shape of a double helix, held together by cross-links.<br><br>Although the strands in DNA are long, they are made up of only a few different nucleotides. The sequence of nucleotides determines the genetic code of an organism.]]>
+		</statement>
+
+	</node>
+
+	<node id="1_12" view="organism" type="drag">
+
+		<question>
+			<![CDATA[This is a section of the DNA.<br>A segment is highlighted.<br><br>Select the term that you think best describes the segment.]]>
+		</question>
+
+		<feedback>
+
+			<correct_missed>Make sure you drag the label to position 6.</correct_missed>
+
+			<incorrect_1><![CDATA[That's not it.<br><br>Review all the terms again to find the most appropriate one.]]></incorrect_1>
+
+			<incorrect_2><![CDATA[That's not right.<br><br>The segment is the basic unit of heredity in living organisms.]]></incorrect_2>
+	
+			<incorrect_3><![CDATA[That's still not right.<br><br>The correct answer is <b>gene</b>.]]></incorrect_3>
+
+		</feedback>
+
+	</node>
+
+	<node id="1_13" view="organism" type="correct">
+
+		<statement>
+			<![CDATA[Correct!<br><br>This segment of DNA is called a <b>gene</b>.<br><br>Genes carry the instructions for most characteristics of an organism.]]>
+		</statement>
+
+	</node>
+
+	<node id="1_14" view="organism" type="drag">
+
+		<question>
+			<![CDATA[If you could magnify a gene to see what it was made up of, you would see something like this.<br><br>Select the term that you think best describes what makes up a gene.]]>
+		</question>
+
+		<feedback>
+
+			<correct_missed>Make sure you drag the label to position 7.</correct_missed>
+
+		</feedback>
+
+	</node>
+
+	<node id="1_15" view="organism" type="correct">
+
+		<statement>
+			<![CDATA[Correct!<br><br>Like all matter, DNA molecules are composed of billions of <b>atoms</b>.]]>
+		</statement>
+
+	</node>
+
+	<node id="1_16" view="summary" type="summary">
+
+		<question>
+			<![CDATA[Choose the correct statements from the list.]]>
+		</question>
+
+		<check_group entries="8" correct="01010101">
+			<option_1>A chromosome is made up of millions of cells.</option_1>
+			<option_2>A gene is a segment of DNA.</option_2>
+			<option_3>DNA is made of chromosomes.</option_3>
+			<option_4>Chromosomes are found in a cell's nucleus.</option_4>
+			<option_5>Atoms are made of genes.</option_5>
+			<option_6>Some organisms have only a single cell.</option_6>
+			<option_7>All species have the same number of chromosomes.</option_7>
+			<option_8>Genes contain the instructions for an organism.</option_8>
+		</check_group>
+
+		<feedback>
+
+			<incorrect_1_0><![CDATA[None of the statements you have selected are correct.]]></incorrect_1_0>
+			<incorrect_1_n><![CDATA[At least one of the statements you have selected is incorrect. ]]></incorrect_1_n>
+			<incorrect_1_n_one><![CDATA[The statement you have selected is not correct.]]></incorrect_1_n_one>
+			<incorrect_1_m><![CDATA[You have not selected all the correct statements.]]></incorrect_1_m>
+			<incorrect_2_0><![CDATA[None of the statements you have selected are correct.<br><br>Read the statements again carefully. You can also use <b>Back</b> to review any information you're not sure about.]]></incorrect_2_0>
+			<incorrect_2_n><![CDATA[At least one of the statements you have selected is incorrect.<br><br>Read the statements again carefully. You can also use <b>Back</b> to review any information you're not sure about.]]></incorrect_2_n>
+			<incorrect_2_n_one><![CDATA[The statement you've selected is not correct.<br><br>Read the statements again carefully. You can also use <b>Back</b> to review any information you're not sure about.]]></incorrect_2_n_one>
+			<incorrect_2_m><![CDATA[You haven't selected all the correct statements.<br><br>Read the statements again carefully and see if you can find the rest. You can also use <b>Back</b> to review any information you're not sure about.]]></incorrect_2_m>
+			<incorrect_3_0><![CDATA[None of the statements you've selected are correct.<br><br>Let's take a look at the correct statements.]]></incorrect_3_0>
+			<incorrect_3_n><![CDATA[At least one of the statements you have selected is incorrect.<br><br>Let's take a look at the correct statements.]]></incorrect_3_n>
+			<incorrect_3_n_one><![CDATA[The statement you've selected is not correct.<br><br>Let's take a look at the correct statements.]]></incorrect_3_n_one>
+			<incorrect_3_m><![CDATA[You haven't selected <b>all</b> the correct statements.<br><br>Let's take a look at all the correct statements.]]></incorrect_3_m>
+
+			<correct>
+				<![CDATA[Congratulations! You have finished this activity.<br><br>You have discovered the constituents in a living organism that influence its physical development, appearance and behaviour.<br><br>These constituents all play a role in genetics.<br><br>Select <b>Main menu</b> to choose the next activity.]]>
+			</correct>
+
+		</feedback>
+
+	</node>
+
+</learningObjectScript>

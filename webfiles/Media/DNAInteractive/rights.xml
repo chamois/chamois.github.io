@@ -1,0 +1,216 @@
+﻿<digital-rights xmlns="http://lex.thelearningfederation.edu.au/drel/2006/01">
+  <content>
+    <title>Genes</title>
+    <version>4.0.0</version>
+    <date-published>2010-06-28</date-published>
+    <catalogue-entry>
+      <catalogue>TLF-LearningObject</catalogue>
+      <entry>5917</entry>
+    </catalogue-entry>
+    <ip-category>Non-TLF-Content</ip-category>
+    <ip-category>TLF-Content</ip-category>
+    <licence-refs>OL182</licence-refs>
+  </content>
+  <ip-manifest>
+    <intellectual-property>
+      <title>Button sounds</title>
+      <content-type>Audio</content-type>
+      <catalogue-entry>
+        <catalogue>Non-TLF-Content</catalogue>
+        <entry>16203</entry>
+      </catalogue-entry>
+      <copyright-status>Copyright owner cannot not be established</copyright-status>
+      <licence-refs>IL606</licence-refs>
+    </intellectual-property>
+    <intellectual-property>
+      <title>TLF content for L5917</title>
+      <content-type>Multimedia</content-type>
+      <catalogue-entry>
+        <catalogue>TLF-Content</catalogue>
+        <entry>11943</entry>
+      </catalogue-entry>
+      <copyright-status>In copyright (Australia)</copyright-status>
+      <licence-refs>OL183</licence-refs>
+    </intellectual-property>
+  </ip-manifest>
+  <licence-manifest>
+    <licence>
+      <identifier>OL182</identifier>
+      <licensor>
+        <name>
+          <organisation-name>Curriculum Corporation</organisation-name>
+          <first-name />
+          <last-name />
+        </name>
+        <url>http://www.curriculum.edu.au</url>
+        <catalogue-entry>
+          <catalogue>TLF-Party</catalogue>
+          <entry>1</entry>
+        </catalogue-entry>
+        <organisation-type>Corporation</organisation-type>
+      </licensor>
+      <licensee>
+        <name>
+          <organisation-name>The State of NSW, represented by DET</organisation-name>
+          <first-name />
+          <last-name />
+        </name>
+        <url />
+        <catalogue-entry>
+          <catalogue>TLF-Party</catalogue>
+          <entry>44</entry>
+        </catalogue-entry>
+        <organisation-type>Statutory body</organisation-type>
+      </licensee>
+      <expiry>
+        <expiry-rule>Perpetual</expiry-rule>
+      </expiry>
+      <start-date>2005-11-16</start-date>
+      <fee>
+        <amount>0.0</amount>
+      </fee>
+      <exclusivity>Non exclusive</exclusivity>
+      <warranty>Yes</warranty>
+      <revocability>Refer to Clause regarding Termination and Revocation before End of Licence Period</revocability>
+      <catalogue-entry>
+        <catalogue>TLF-Licence</catalogue>
+        <entry>182</entry>
+      </catalogue-entry>
+      <catalogue-entry>
+        <catalogue>TLF-ContentPackage</catalogue>
+        <entry>7</entry>
+      </catalogue-entry>
+      <rights-ref>R8</rights-ref>
+    </licence>
+    <licence>
+      <identifier>OL183</identifier>
+      <licensor>
+        <name>
+          <organisation-name>Curriculum Corporation</organisation-name>
+          <first-name />
+          <last-name />
+        </name>
+        <url>http://www.curriculum.edu.au</url>
+        <catalogue-entry>
+          <catalogue>TLF-Party</catalogue>
+          <entry>1</entry>
+        </catalogue-entry>
+        <organisation-type>Corporation</organisation-type>
+      </licensor>
+      <licensee>
+        <name>
+          <organisation-name>The State of NSW, represented by DET</organisation-name>
+          <first-name />
+          <last-name />
+        </name>
+        <url />
+        <catalogue-entry>
+          <catalogue>TLF-Party</catalogue>
+          <entry>44</entry>
+        </catalogue-entry>
+        <organisation-type>Statutory body</organisation-type>
+      </licensee>
+      <expiry>
+        <expiry-rule>Perpetual</expiry-rule>
+      </expiry>
+      <start-date>2004-06-03</start-date>
+      <fee>
+        <amount>0.0</amount>
+      </fee>
+      <exclusivity>Non exclusive</exclusivity>
+      <warranty>No</warranty>
+      <revocability>Not revocable except by agreement</revocability>
+      <catalogue-entry>
+        <catalogue>TLF-Licence</catalogue>
+        <entry>183</entry>
+      </catalogue-entry>
+      <catalogue-entry>
+        <catalogue>TLF-ContentPackage</catalogue>
+        <entry>7</entry>
+      </catalogue-entry>
+      <rights-ref>R6</rights-ref>
+    </licence>
+    <licence>
+      <identifier>IL606</identifier>
+      <licensed-from>
+        <name>
+          <organisation-name>Public Domain licensor</organisation-name>
+          <first-name />
+          <last-name />
+        </name>
+        <url />
+        <catalogue-entry>
+          <catalogue>TLF-Party</catalogue>
+          <entry>3196</entry>
+        </catalogue-entry>
+        <organisation-type>Unspecified</organisation-type>
+      </licensed-from>
+      <expiry>
+        <expiry-rule>Perpetual</expiry-rule>
+      </expiry>
+      <catalogue-entry>
+        <catalogue>TLF-Licence</catalogue>
+        <entry>606</entry>
+      </catalogue-entry>
+      <rights-ref>R839</rights-ref>
+    </licence>
+  </licence-manifest>
+  <rights-manifest>
+    <rights>
+      <identifier>R8</identifier>
+      <user-rights>
+        <market-and-purpose>Education sector and purposes</market-and-purpose>
+        <territory>AU; NZ</territory>
+      </user-rights>
+      <development-rights>
+        <special-conditions>The development rights for this item are described in each of it's individual elements</special-conditions>
+      </development-rights>
+    </rights>
+    <rights>
+      <identifier>R6</identifier>
+      <user-rights>
+        <market-and-purpose>Education sector and purposes</market-and-purpose>
+        <territory>Unlimited</territory>
+      </user-rights>
+      <development-rights>
+        <market-and-purpose>Education sector and purposes</market-and-purpose>
+        <edited-version />
+        <enhancement>
+          <owner-of-new-copyright-in-foreground-ip>Licensor is owner of new copyright</owner-of-new-copyright-in-foreground-ip>
+        </enhancement>
+        <supplementary-work>
+          <owner-of-new-copyright-in-foreground-ip>Licensee is owner of new copyright</owner-of-new-copyright-in-foreground-ip>
+        </supplementary-work>
+        <compilation>
+          <owner-of-new-copyright-in-foreground-ip>Licensee is owner of new copyright</owner-of-new-copyright-in-foreground-ip>
+        </compilation>
+      </development-rights>
+      <supply-rights>
+        <application-to-original-or-derivatives>Original</application-to-original-or-derivatives>
+        <application-to-original-or-derivatives>Edited versions</application-to-original-or-derivatives>
+        <application-to-original-or-derivatives>Value added derivatives</application-to-original-or-derivatives>
+        <mode-of-supply>Unlimited</mode-of-supply>
+        <market-and-purpose>Education sector and purposes</market-and-purpose>
+        <territory>Only within the territory of the Licensee's jurisdiction</territory>
+        <remuneration>Nominal</remuneration>
+      </supply-rights>
+      <sublicensing-rights>
+        <application-to-original-or-derivatives>Original</application-to-original-or-derivatives>
+        <application-to-original-or-derivatives>Edited versions</application-to-original-or-derivatives>
+        <application-to-original-or-derivatives>Value added derivatives</application-to-original-or-derivatives>
+        <remuneration>Nominal</remuneration>
+        <sublicensed-user-rights>
+          <market-and-purpose>Education sector and purposes</market-and-purpose>
+          <territory>Sublicensing Right may be exercised only within the territory of the Licensee's jurisdiction</territory>
+        </sublicensed-user-rights>
+      </sublicensing-rights>
+    </rights>
+    <rights>
+      <identifier>R839</identifier>
+      <user-rights>
+        <market-and-purpose>Education sector and purposes</market-and-purpose>
+        <territory>NZ; AU</territory>
+      </user-rights>
+    </rights>
+  </rights-manifest>
+</digital-rights>
