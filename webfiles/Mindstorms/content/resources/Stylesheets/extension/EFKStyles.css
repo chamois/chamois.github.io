@@ -1,0 +1,19 @@
+﻿/*Style extension for EFK deliverable*/
+
+/*Made this in junction with ability to add "extension style", which is small set of css 
+for products that look almost exactly the same except really annoying small details*/
+
+/*changes explosion title from "Computer Science" to "EFK Computer Science Academy"*/
+.explosionTitleWrapper{
+    background-image: url('../../Images/Computer Science/Template/CS_Explosion_EFK.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display:inline-block;
+}
+
+/*This rule turns ON EFK-specific text*/
+.cs-homePage .MCBreadcrumbs::before,
+.cs-homePage h1::before
+{
+	content: "EFK ";
+}

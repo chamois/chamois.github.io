@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="1184" MadCap:lastWidth="1069">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="" />
+		<meta name="author" content="" /><title></title>
+		<script type="text/javascript" src="../Scripts/page_init.js">
+		</script>
+	</head>
+	<body>
+        <!-- anchor "TOP" --><span id="anchor-top"></span>
+        <div class="rowCenter breadcrumbBar">
+            <MadCap:topicToolbarProxy style="mc-topic-toolbar-items: Print RemoveHighlight ExpandAll PreviousTopic NextTopic;" />
+            <MadCap:breadcrumbsProxy />
+        </div>
+        <div class="teacherBanner">
+            <p>Teacher Version</p>
+        </div>
+        <div class="row heroBannerWrapper">
+            <div class="heroBanner">
+                <img class="heroTitleBanner" src="../Images/Computer Science/Template/CS_Title.png" alt="" />
+				<div class="heroTextWrapper">
+					<p class="topHeroheading printOnly"></p>
+					<p class="mainHeroheading"></p>
+					<p class="bottomHeroheading printOnly"></p>
+				</div>
+                <div class="heroImageWrapper">
+                    <img class="heroImage" src="../Images/Computer Science/Template/CS_MeteoriteTeen1_Pose.png" alt="Hero Image" />
+                </div>
+            </div>
+            <div class="bannerTexture">
+            </div>
+        </div>
+        <!-- end heroBannerWrapper -->
+        <div class="rowCenter">
+            <div class="exitFS"><p>Exit SandBLOQS Mode<strong> X</strong></p></div>
+			<div class="medium-12 large-9 columns">
+                <MadCap:bodyProxy />
+                <!-- Here used to contain '.navWrapper bottomNav' -->
+            </div>
+            <div class="large-3 columns toc-menu">
+                <MadCap:menuProxy style="mc-context-sensitive: True;" data-mc-skin="/Project/Skins/SideMenu.flskn" />
+            </div>
+        </div>
+        <!-- end rowCenter -->
+        <footer>
+			<div class="footerWrapper">
+				<p>© 2016 Robomatter, Inc.</p>
+				<p>Portions of this product are manufactured under license from Carnegie Mellon University.</p>
+			</div>
+        </footer>
+        <!-- extra elements -->
+        <div class="topBtn-fixed"><a href="#anchor-top">Top</a>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,181 @@
+/*<meta />*/
+
+@media only screen and (max-width: 640px)
+{
+	nav.tab-bar
+	{
+		background-repeat: no-repeat;
+		background-position: center top;
+		background-color: #004b8d;
+	}
+
+	.tab-bar-section a.logo
+	{
+		background-position: center center;
+		background-repeat: no-repeat;
+		width: 2146px;
+		height: 580px;
+		top: 0;
+		bottom: auto;
+		margin-top: 0;
+		background: transparent url('Images/RM-Logo_white.png') no-repeat center center;
+	}
+
+	.search-submit
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+		background: #cacaca url('Images/SearchIcon.png') no-repeat center center;
+	}
+
+	.search-filter
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+		background: #ffffff url('Images/FilterOutline.png') no-repeat center center;
+	}
+
+	.search-input
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+
+	.right-off-canvas-menu
+	{
+		background-position: top center;
+		background-color: #333333;
+	}
+
+	.right-off-canvas-menu ul ul
+	{
+		background-position: top center;
+		background-color: #333333;
+	}
+
+	.left-off-canvas-menu
+	{
+		background-position: top center;
+		background-color: #333333;
+	}
+
+	.left-off-canvas-menu ul ul
+	{
+		background-position: top center;
+		background-color: #333333;
+	}
+
+	.tab-bar-section.middle > div
+	{
+		min-height: 580px;
+	}
+
+	.inner-wrap nav.tab-bar .outer-row
+	{
+		
+	}
+
+	.tab-bar .menu-icon span
+	{
+		top: 10.5px;
+		background: transparent url('Images/Menu.png') no-repeat center center;
+	}
+
+	.inner-wrap .outer-row
+	{
+		
+	}
+
+	.main-section > .outer-row
+	{
+		
+	}
+
+	ul.off-canvas-list li a
+	{
+		
+	}
+
+	ul.off-canvas-list li.back > a
+	{
+		
+	}
+
+	ul.off-canvas-list li a:hover
+	{
+		background-color: #242424;
+	}
+
+	ul.off-canvas-list li.back > a:hover
+	{
+		background-color: #242424;
+	}
+
+	nav.tab-bar .menu-icon
+	{
+		right: -13px;
+	}
+
+	.row.nav-search
+	{
+		
+	}
+
+	.search-bar
+	{
+		
+	}
+
+	.search-field
+	{
+		padding-right: 106px;
+		background-color: #ffffff;
+	}
+
+	.search-filter-content
+	{
+		top: 2em;
+		background-color: #ffffff;
+	}
+
+	.search-filter.open
+	{
+		background-color: #ffffff;
+	}
+
+	.search-filter.selected
+	{
+		background: transparent url('Images/Filter.png') no-repeat center center;
+	}
+
+	.search-filter-content ul li:hover
+	{
+		background-color: #ffffff;
+	}
+
+	.search-field::-webkit-input-placeholder
+	{
+		
+	}
+
+	.search-field::-moz-placeholder
+	{
+		
+	}
+
+	.search-field:-moz-placeholder
+	{
+		
+	}
+
+	.search-field:-ms-input-placeholder
+	{
+		
+	}
+
+	.search-filter-wrapper
+	{
+		right: 56px;
+	}
+}
+

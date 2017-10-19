@@ -1,0 +1,58 @@
+﻿/*Style extension for CMAsia deliverable*/
+
+/*Made this in junction with ability to add "extension style", which is small set of css 
+for products that look almost exactly the same except really annoying small details*/
+
+.rowCenter.breadcrumbBar {display: none;}
+
+.navigation-wrapper{opacity: 0; position: absolute; left: -1000px;}
+
+.menu._Skins_SideMenu.mc-component {left: -1000px;}
+
+.cmaWatermark {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: url("../../Images/Robotics/Template/CMAsia-watermark.png") no-repeat scroll bottom right;
+	pointer-events: none;
+	opacity: .5;
+	z-index: 1000;
+}
+
+nav.tab-bar  {
+	height: 80px;
+	background: rgba(183, 32, 38, 1) url("../../Images/Robotics/Template/CMAsia-redRibon.png") repeat; 
+	padding: 0;
+}
+
+.middle.tab-bar-section {
+    height: 100%;
+}
+
+.tab-bar-section a.logo {
+    background-size: contain;
+    height: 61px;
+    margin: -23px 0 0;
+    width: 100%;
+	background-position: left;
+}
+
+.teacherBanner {
+	/*display: none;*/
+}
+
+@media only screen and (max-width: 1025px)
+{
+
+	nav.tab-bar .menu-icon {
+		display: none;
+	}
+
+	.tab-bar-section a.logo {
+    	margin: 7px 0 0;
+	}
+	
+}
+

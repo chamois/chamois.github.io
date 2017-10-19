@@ -1,0 +1,8 @@
+﻿/*Style extension for CMAsia Student deliverable*/
+
+/*Made this in junction with ability to add "extension style", which is small set of css 
+for products that look almost exactly the same except really annoying small details*/
+
+.MCToggler.MCTogglerHead.MCTogglerHotSpot.toggler.MCTogglerHotSpot_.MCHotSpotImage.MCToggler_Closed {
+	display: none;
+}

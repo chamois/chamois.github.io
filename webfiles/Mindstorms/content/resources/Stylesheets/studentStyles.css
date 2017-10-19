@@ -1,0 +1,1146 @@
+﻿/*<meta />*/
+
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
+
+/* This stylesheet should contain all of the color information for the teacher output. */
+/*Unfortunately, @import didn't work out*/
+
+.teacherBanner
+{
+	display: none;
+}
+
+/*========================================= CSS Reset ====================================================================================*/
+
+html,
+body,
+h1,
+.h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+div,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+abbr,
+cite,
+sub,
+sup,
+small,
+blockquote
+{
+	color: #404040;
+}
+
+/*========================================= layout ====================================================================================*/
+
+nav.tab-bar
+{
+	background-color: #444;
+}
+
+.sideContent
+{
+	background-color: transparent;
+	border-top: 1px none #7b756b;
+}
+
+ul.menu._Skins_SideMenu li > a.selected
+{
+	background-color: #3894c0;
+}
+
+/*========================================= footer styles ====================================================================================*/
+
+footer
+{
+	background-color: #222;
+}
+
+footer p
+{
+	color: #999;
+}
+
+/*========================================= Navigation ====================================================================================*/
+
+ul.navigation ul > li:hover
+{
+	background-color: #3894c0;
+}
+
+ul.navigation ul > li > a:hover
+{
+	color: #fff;
+}
+
+.navWrapper a
+{
+	background-color: #3894c0;
+}
+
+.navWrapper.bottomNav
+{
+	border-top: 3px solid #3894c0;
+}
+
+.navWrapper a:link,
+.navWrapper a:visited
+{
+	color: #3894c0;
+}
+
+.navWrapper a:hover,
+.navWrapper a:active
+{
+	color: #3894c0;
+}
+
+.moduleTitle .moduleIcon.iconList,
+.sitemapTitle .sitemapIcon.iconList
+{
+	background-image: url('../Images/Robotics/Robo 4/Home/moduleIcon-r4m1.png');
+}
+
+.inpageNav li a:hover, .inpageNav li a:active {
+    background: #3894c0 none repeat scroll 0 0;
+}
+
+/*---------- sideBar TOC current link BG color -----------*/
+ul.menu._Skins_SideMenu.mc-component li > a.selected {
+    background-color: #3894c0;
+}
+
+ul.menu._Skins_SideMenu.mc-component > li.has-children:first-of-type > a::after {
+    font-family: orbitron,sans-serif;
+    font-size: 0.9em;
+	margin: 6px 0 0;
+}
+
+ul.menu._Skins_SideMenu.mc-component li > a {
+    padding: 4px 2px 10px;
+}
+
+
+/*========================================= general styles ====================================================================================*/
+
+a
+{
+	color: #2d82dc;
+}
+
+a:link,
+a:visited
+{
+	color: #2d82dc;
+}
+
+a:hover,
+a:active
+{
+	color: #525252;
+}
+
+hr
+{
+	border: 1px solid #ddd;
+}
+
+.sideContent
+{
+	border-top: 1px none #7b756b;
+}
+
+MadCap|dropDownBody
+{
+	border-bottom: solid 1px #bed230;
+}
+
+MadCap|dropDownHotspot
+{
+	color: #404040;
+}
+
+MadCap|dropDownHotspot:hover
+{
+	color: #BED230;
+}
+
+.MCBreadcrumbs
+{
+	color: #525252;
+}
+
+a.MCBreadcrumbsLink,
+a.MCBreadcrumbsLink:visited
+{
+	color: #3894c0;
+}
+
+a.MCBreadcrumbsLink:hover,
+a.MCBreadcrumbsLink:active
+{
+	color: #525252;
+}
+
+MadCap|popup
+{
+	color: #2D8DCC;
+}
+
+MadCap|popup:focus
+{
+	color: #2D8DCC;
+}
+
+MadCap|popup:hover
+{
+	color: #2D8DCC;
+}
+
+MadCap|popupHead
+{
+	color: #2D8DCC;
+}
+
+MadCap|xref
+{
+	color: #2D8DCC;
+}
+
+MadCap|xref:hover
+{
+	color: #BED230;
+}
+
+.toggler:link
+{
+	color: #3894c0;
+}
+
+.MCTextPopup:link,
+.MCTextPopup:visited
+{
+	color: #3894c0;
+}
+
+.section1 a:link,
+.section1 a:visited,
+.section1 .MCTextPopup:link,
+.section1 .MCTextPopup:visited
+{
+	color: #ff6138;
+}
+
+.section2 a:link,
+.section2 a:visited,
+.section2 .MCTextPopup:link,
+.section2 .MCTextPopup:visited
+{
+	color: #52d995;
+}
+
+.section2b a:link,
+.section2b a:visited,
+.section2b .MCTextPopup:link,
+.section2b .MCTextPopup:visited
+{
+	color: #6bc7ce;
+}
+
+.section3 a:link,
+.section3 a:visited,
+.section3 .MCTextPopup:link,
+.section3 .MCTextPopup:visited
+{
+	color: #df9aff;
+}
+
+.sectionG a:link,
+.sectionG a:visited,
+.sectionG .MCTextPopup:link,
+.sectionG .MCTextPopup:visited
+{
+	color: #FFB219;
+}
+
+.sectionWE a:link,
+.sectionWE a:visited,
+.sectionWE .MCTextPopup:link,
+.sectionWE .MCTextPopup:visited
+{
+	color: #a8e068;
+}
+
+.sectionContent a:hover,
+.sectionContent a:active,
+.MCTextPopup:hover,
+.MCTextPopup:active
+{
+	color: #525252;
+}
+
+.infoBox {
+	border-left: 10px solid #3894c0;
+}
+
+/*========================================= Home Page ====================================================================================*/
+
+.moduleSection
+{
+	background: #f2f2f2;
+}
+
+.moduleBox
+{
+	background: #fff;
+}
+
+.moduleBoxGrad
+{
+	background: #525252;
+}
+
+body img.moduleBoxImg
+{
+	border: 1px solid #525252;
+}
+
+.moduleBox p
+{
+	color: #595959;
+}
+
+.moduleBoxBtn
+{
+	color: #fff !important;
+}
+
+.moduleBoxBtn:hover
+{
+	background-color: #525252 !important;
+}
+
+.moduleBoxes .moduleBoxWrapper .moduleBox
+{
+	border: 1px solid #bbb;
+}
+
+.moduleBoxes .moduleBoxWrapper h2,
+.moduleBoxes .moduleBoxWrapper h3
+{
+	color: #525252;
+}
+
+.moduleBoxes .moduleBoxWrapper .moduleBoxBtn
+{
+	background-color: #3894c0;
+}
+
+/*========================================= Teacher Guide ====================================================================================*/
+
+.teacherBanner
+{
+	background: #6e4f7e none repeat scroll 0 0;
+}
+
+.row.heroBannerWrapper,
+.row.heroBannerWrapperBg
+{
+	background: #3894c0;
+	/* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(0deg, #addaf0, #3894c0);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(0deg, #addaf0, #3894c0);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(0deg, #addaf0, #3894c0);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(0deg, #addaf0, #3894c0);
+	/* Standard syntax (must be last) */
+	color: #fff;
+}
+
+.heroTextWrapper .mainHeroheading,
+.heroTextWrapper .bottomHeroheading,
+.heroTextWrapper .topHeroheading
+{
+	color: #fff;
+}
+
+.heroTextWrapper .mainHeroheading
+{
+	text-shadow: 2px 2px #3184ac;
+}
+
+.heroTextWrapper .mainHeroheading strong
+{
+	color: #ff6138;
+}
+
+.heroTextWrapper .mainHeroheading span
+{
+	color: #222;
+}
+
+.icon img
+{
+	background: #3894c0 none repeat scroll 0 0;
+}
+
+.section1 h2
+{
+	background: #ff6138;
+	/* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(90deg, #ff6138, #fff);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(90deg, #ff6138, #fff);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(90deg, #ff6138, #fff);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(90deg, #ff6138, #fff);
+	/* Standard syntax (must be last) */
+	color: #fff;
+	height: 50px;
+}
+
+.section2 h2
+{
+	background: #52d995;
+	/* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(90deg, #52d995, #fff);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(90deg, #52d995, #fff);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(90deg, #52d995, #fff);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(90deg, #52d995, #fff);
+	/* Standard syntax (must be last) */
+	color: #fff;
+	height: 50px;
+}
+
+.section2b h2
+{
+	background: #6bc7ce;
+	/* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(90deg, #6bc7ce, #fff);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(90deg, #6bc7ce, #fff);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(90deg, #6bc7ce, #fff);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(90deg, #6bc7ce, #fff);
+	/* Standard syntax (must be last) */
+	color: #fff;
+	height: 50px;
+}
+
+.section3 h2
+{
+	background: #df9aff;
+	/* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(90deg, #df9aff, #fff);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(90deg, #df9aff, #fff);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(90deg, #df9aff, #fff);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(90deg, #df9aff, #fff);
+	/* Standard syntax (must be last) */
+	color: #fff;
+}
+
+.sectionG h2
+{
+	background: #FFB219;
+	/* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(90deg, #FFB219, #fff);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(90deg, #FFB219, #fff);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(90deg, #FFB219, #fff);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(90deg, #FFB219, #fff);
+	/* Standard syntax (must be last) */
+	color: #fff;
+}
+
+.sectionWE h2
+{
+	background: #a8e068;
+	/* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(90deg, #a8e068, #fff);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(90deg, #a8e068, #fff);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(90deg, #a8e068, #fff);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(90deg, #a8e068, #fff);
+	/* Standard syntax (must be last) */
+	color: #fff;
+}
+
+.section1 h3 {
+	color: #ff6138;
+}
+
+.section2 h3 {
+	color: #52d995;
+}
+
+.section2b h3 {
+	color: #6bc7ce;
+}
+
+.section3 h3 {
+	color: #df9aff;
+}
+
+.sectionG h3 {
+	color: #FFB219;
+}
+
+.sectionWE h3 {
+	color: #a8e068;
+}
+
+.callOut
+{
+	background-color: #eee;
+}
+
+.callOut h2
+{
+	color: #fff;
+	background-color: #3894c0;
+}
+
+.callOut.box1
+{
+	border: 2px solid #FFB219;
+}
+
+.box1 h2
+{
+	background-color: #FFB219;
+}
+
+.box1 h3
+{
+	color: #e89a02;
+}
+
+.callOut.box2
+{
+	border: 2px solid #a8e068;
+}
+
+.box2 h2
+{
+	background-color: #a8e068;
+}
+
+.box2 h3
+{
+	color: #83be3f;
+}
+
+.callOut.quickTips h2
+{
+	background-color: #3894c0;
+}
+
+.circle
+{
+	background: #fff none repeat scroll 0 0;
+	border: 5px solid #425456;
+	box-shadow: 6px 0 0 #fff;
+	color: #425456;
+}
+
+.section1 .circle
+{
+	border: 5px solid #ff6138;
+	color: #ff6138;
+}
+
+.section2 .circle
+{
+	border: 5px solid #52d995;
+	color: #52d995;
+}
+
+.section2b .circle
+{
+	border: 5px solid #6bc7ce;
+	color: #6bc7ce;
+}
+
+.section3 .circle
+{
+	border: 5px solid #df9aff;
+	color: #df9aff;
+}
+
+.sectionG .circle
+{
+	border: 5px solid #FFB219;
+	color: #FFB219;
+}
+
+.sectionWE .circle
+{
+	border: 5px solid #a8e068;
+	color: #a8e068;
+}
+
+/*========================================= Module/Lesson Pages ====================================================================================*/
+
+.moduleTitle h2,
+.sitemapTitle h2
+{
+	background: #3894c0;
+	/* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(90deg, #3894c0, #fff);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(90deg, #3894c0, #fff);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(90deg, #3894c0, #fff);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(90deg, #3894c0, #fff);
+	/* Standard syntax (must be last) */
+	color: #fff;
+}
+
+.moduleIcon0
+{
+	background: url("../Images/Robotics/Robo 4/Home/moduleIcon-r4m0.png") no-repeat 0 0;
+}
+
+.moduleIcon1
+{
+	background: url("../Images/Robotics/Robo 4/Home/moduleIcon-r4m1.png") no-repeat 0 0;
+}
+
+.moduleIcon2
+{
+	background: url("../Images/Robotics/Robo 4/Home/moduleIcon-r4m2.png") no-repeat 0 0;
+}
+
+.moduleIcon3
+{
+	background: url("../Images/Robotics/Robo 4/Home/moduleIcon-r4m3.png") no-repeat 0 0;
+}
+
+.moduleIcon4
+{
+	background: url("../Images/Robotics/Robo 4/Home/moduleIcon-r4m4.png") no-repeat 0 0;
+}
+
+.moduleIcon5
+{
+	background: url("../Images/Robotics/Robo 4/Home/moduleIcon-r4m5.png") no-repeat 0 0;
+}
+
+.numberIcon0
+{
+	background: url('../Images/Robotics/Template/icon_number0.png') no-repeat 0 0;
+}
+
+.numberIcon1
+{
+	background: url('../Images/Robotics/Template/icon_number1.png') no-repeat 0 0;
+}
+
+.numberIcon2
+{
+	background: url('../Images/Robotics/Template/icon_number2.png') no-repeat 0 0;
+}
+
+.numberIcon3
+{
+	background: url('../Images/Robotics/Template/icon_number3.png') no-repeat 0 0;
+}
+
+.numberIcon4
+{
+	background: url('../Images/Robotics/Template/icon_number4.png') no-repeat 0 0;
+}
+
+.numberIcon5
+{
+	background: url('../Images/Robotics/Template/icon_number5.png') no-repeat 0 0;
+}
+
+.moduleContents,
+.sitemapContents
+{
+	background: #eee;
+	/* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(90deg, #eee, #fff);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(90deg, #eee, #fff);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(90deg, #eee, #fff);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(90deg, #eee, #fff);
+	/* Standard syntax (must be last) */
+}
+
+.moduleContents ul.menu._Skins_SideMenu.mc-component li > a:hover,
+.moduleContents ul.menu._Skins_SideMenu.mc-component li > a:active {
+    color: #3894c0;
+}
+
+.sitemapContents .menu._Skins_SideMenu.mc-component li li a {
+	background: #3894c0;
+}
+
+.sitemapContents ul.menu._Skins_SideMenu.mc-component li > a:hover,
+.sitemapContents ul.menu._Skins_SideMenu.mc-component li > a:active {
+    color: #fff;
+	background: #3894c0;
+}
+
+.universalIndexPage .sitemapIcon {
+    background: rgba(0, 0, 0, 0) url("../Images/Robotics/Robo 4/Home/moduleIcon-r4m1.png") no-repeat scroll 0 0 / cover;
+}
+
+.universalIndex ul.menu._Skins_SideMenu.mc-component li > a.selected {
+    background: rgba(0, 0, 0, 0) linear-gradient(90deg, #3894c0, #fff) repeat scroll 0 4px;
+}
+
+.universalIndex .menu._Skins_SideMenu.mc-component .showIndexChildren li  {
+	background: url('../Images/Robotics/Template/indexIcon-sm-student.png') no-repeat 0 4px;
+}
+
+/*========================================= Check Your Understanding ====================================================================================*/
+
+.checkYourUnderstanding h2
+{
+	background: #3894c0;
+	/* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(90deg, #3894c0, #fff);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(90deg, #3894c0, #fff);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(90deg, #3894c0, #fff);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(90deg, #3894c0, #fff);
+	/* Standard syntax (must be last) */
+	color: #fff;
+}
+
+.checkYourUnderstanding .circle
+{
+	border: 5px solid #3894c0;
+	background: #3894c0 url("../Images/Robotics/Template/icon_checkunderstanding.png") no-repeat scroll -8px -8px / 123% auto;
+}
+
+.checkYourUnderstanding.reviewQuestions .circle
+{
+	border: 5px solid #3894c0;
+	background: #3894c0 url("../Images/Robotics/Template/icon_review.png") no-repeat scroll -8px -8px / 123% auto;
+}
+
+/*========================================= headings ====================================================================================*/
+
+h1,
+.h1,
+h2,
+h3
+{
+	color: #3894c0;
+}
+
+h1,
+.h1
+{
+	border-bottom: 3px solid #3894c0;
+}
+
+/*========================================= paragraph ====================================================================================*/
+
+p.robotcText
+{
+	color: #0000ff;
+}
+
+a:link,
+a:visited
+{
+	color: #3894c0;
+}
+
+a:hover,
+a:active
+{
+	color: #525252;
+}
+
+.row.topics-links a:link,
+.row.topics-links a:visited
+{
+	color: #525252;
+}
+
+.row.topics-links a:hover,
+.row.topics-links a:active {
+	color: #3894c0;
+}
+
+.callOut a:link, 
+.callOut a:visited {
+    color: #525252;
+}
+
+.callOut a:hover,
+.callOut a:active {
+	color: #3894c0;
+}
+
+b,
+strong
+{
+	color: #525252;
+}
+
+mark
+{
+	background: yellow;
+}
+
+p.CompanyInformation2
+{
+	color: #6d6d6d;
+}
+
+p.Example
+{
+	background-color: #bed230;
+	border-bottom-color: #a4ac67;
+	border-left-color: #a4ac67;
+	border-right-color: #a4ac67;
+}
+
+p.ExampleMiddleSection
+{
+	background-color: #bed230;
+	border-left-color: #a4ac67;
+	border-right-color: #a4ac67;
+}
+
+p.note
+{
+	background-color: #3e3e3e;
+	border: solid 1px #404040;
+	color: #b3b3b3;
+	mc-auto-number-format: '{b}{color #bed230}Note: {/color}{/b}';
+}
+
+p.noteBottom
+{
+	background-color: #3e3e3e;
+	border-bottom-color: #404040;
+	border-left-color: #404040;
+	border-right-color: #404040;
+	color: #b3b3b3;
+}
+
+p.noteMiddle
+{
+	background-color: #3e3e3e;
+	border-left-color: #404040;
+	border-right-color: #404040;
+	color: #b3b3b3;
+}
+
+p.noteTop
+{
+	background-color: #3e3e3e;
+	border-left-color: #404040;
+	border-right-color: #404040;
+	border-top-color: #404040;
+	color: #b3b3b3;
+	mc-auto-number-format: '{b}{color #bed230}Note: {/color}{/b}';
+}
+
+p.TableTextCenterDark
+{
+	color: #000000;
+}
+
+p.TableTextDark
+{
+	color: #000000;
+}
+
+p.TableTextDarkEmphasis
+{
+	color: #000000;
+}
+
+p.TableTextHeadDark
+{
+	color: #000000;
+}
+
+p.TableTextLightEmphasis
+{
+	color: #ffffff;
+}
+
+span.SetOffFirstLevel
+{
+	color: #5e6914;
+}
+
+span.SetOffSecondLevel
+{
+	color: #445879;
+}
+
+/*========================================= images ====================================================================================*/
+/*========================================= form ====================================================================================*/
+
+fieldset
+{
+	border: 1px solid #aaa;
+	background: #f9f9f9;
+}
+
+legend
+{
+	color: #888;
+}
+
+label
+{
+	color: #666;
+}
+
+[type="text"],
+[type="password"],
+[name="text_area"]
+{
+	background: #eee;
+	color: #333;
+}
+
+optgroup
+{
+	color: #666;
+}
+
+option
+{
+	color: #999;
+}
+
+.button
+{
+	color: #fff;
+	background-color: #3894c0;
+}
+
+.button:hover
+{
+	background: #ef3e36;
+}
+
+/*========================================= table ====================================================================================*/
+
+table
+{
+	border: 1px solid #3894c0;
+	background: #f9f9f9;
+}
+
+th
+{
+	background-color: #3894c0;
+	border-right: 1px solid #ccc;
+	color: #fff;
+}
+
+td
+{
+	border: 1px solid #ccc;
+}
+
+tr:nth-child(even)
+{
+	background: #eee;
+}
+
+/*========================================= search page ====================================================================================*/
+
+#results-heading {
+	border-bottom: 3px solid #3894c0;
+}
+
+.searchTopic .mainHeroheading {
+    margin-top: 22px;
+}
+
+h1#results-heading {
+	color: #3894c0;
+}
+
+#resultList h3.title a:link, 
+#resultList h3.title a:visited {
+	color: #3894c0;
+}
+
+#resultList h3.title a:hover, 
+#resultList h3.title a:active {
+	color: #525252;
+}
+
+#resultList .url cite {
+    color: #3894c0;
+}
+
+#pagination a {
+	background: #3894c0;
+}
+
+#resultList .glossary {
+	border-left: 10px solid #3894c0;
+}
+
+/*========================================= extra tags ====================================================================================*/
+
+sub,
+sup
+{
+	color: #000;
+}
+
+blockquote
+{
+	background-color: #e1e1e1;
+	border-color: #b3b3b3 #b3b3b3 -moz-use-text-color;
+}
+
+blockquote.name
+{
+	border-bottom-color: #b3b3b3;
+}
+
+/*========================================= accordion ====================================================================================*/
+
+.accordion:hover {
+	background: #3894c0; none repeat scroll 0 0;
+}
+
+.accordion.active {
+	background: #3894c0; none repeat scroll 0 0;
+}
+
+/*========================================= Code Review special map ====================================================================================*/
+
+.program-review-box {
+	border-left: 10px solid #3894c0;
+}
+
+.review-map-callout {
+	background-color: #f5e5de;
+    border: 2px solid #c76b3f;
+}
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////// Media Queries //////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* Medium Layout */
+/* Medium Layout */
+
+@media only screen and (max-width: 64em)
+{
+	.section1 h2
+	{
+		background: #ff6138;
+	}
+
+	.section2 h2
+	{
+		background: #52d995;
+	}
+	
+	.section2b h2
+	{
+		background: #6bc7ce;
+	}
+
+	.section3 h2
+	{
+		background: #df9aff;
+	}
+	
+	.sectionG h2
+	{
+		background: #FFB219;
+	}
+	
+	.sectionWE h2
+	{
+		background: #a8e068;
+	}
+}
+
+/* Small Layout */
+
+@media screen and (max-width: 40em)
+{
+	.section1 h2,
+	.sectionMC h2
+	{
+		background: #ff6138;
+	}
+
+	.section2 h2,
+	.sectionTI h2
+	{
+		background: #52d995;
+	}
+	
+	.section2b h2
+	{
+		background: #6bc7ce;
+	}
+
+	.section3 h2
+	{
+		background: #df9aff;
+	}
+
+	.checkYourUnderstanding h2
+	{
+		background: #3894c0;
+	}
+
+	.moduleTitle h2,
+	.sitemapTitle h2
+	{
+		background: #3894c0;
+	}
+
+	.moduleIcon,
+	.sitemapIcon
+	{
+		display: none !important;
+	}
+	
+	.universalIndex ul.menu._Skins_SideMenu.mc-component li > a.selected {
+	    background: #3894c0;
+	}
+}

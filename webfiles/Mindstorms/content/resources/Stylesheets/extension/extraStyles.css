@@ -1,0 +1,20 @@
+﻿.modules:after {
+    content: "MODULES: ";
+}
+
+.subModules:after {
+    content: "SUBMODULES: ";
+}
+
+.topics:after {
+    content: "TOPICS: ";
+}
+
+.subTopics:after {
+    content: "SUBTOPICS: ";
+}
+
+ul.menu._Skins_SideMenu.mc-component > li.has-children:first-of-type > a::after {
+    font-size: 0.8em;
+	margin: 2px 0 0;
+}

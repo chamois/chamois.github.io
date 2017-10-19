@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html class="noGlossary" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="1237" MadCap:lastWidth="1386">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="description" content="" />
+        <meta name="author" content="" /><title></title>
+        <script type="text/javascript" src="../Scripts/page_init.js">
+        </script>
+    </head>
+    <body>
+        <!-- anchor "TOP" --><span id="anchor-top"></span>
+        <div class="rowCenter breadcrumbBar">
+            <MadCap:topicToolbarProxy style="mc-topic-toolbar-items: Print RemoveHighlight ExpandAll PreviousTopic NextTopic;" />
+            <MadCap:breadcrumbsProxy />
+        </div>
+        <div class="teacherBanner">
+            <p>Teacher Version</p>
+        </div>
+        <div class="row heroBannerWrapperBg">
+            <div class="heroBanner">
+                <div class="heroTextWrapper">
+                    <img src="../../Resources/Images/Robotics/Template/RM-Logo_white.png" alt="Robomatter logo" width="178" height="49px" />
+                    <h1 class="mainHeroheading"><span>TREC</span>
+                    </h1>
+                    <h1 class="bottomHeroheading">Mechanisms</h1>
+                </div>
+                <div class="heroImageWrapper">
+                    <img class="heroImage" src="../../Resources/Images/Robotics/Template/Robot_3-2-02a.png" alt="Hero Image" width="504" height="430px" />
+                </div>
+                <img class="heroImageBg" src="../../Resources/Images/Robotics/Template/gears.png" alt="Hero Image" width="758" height="364" />
+            </div>
+        </div>
+        <!-- end heroBannerWrapper -->
+        <MadCap:bodyProxy />
+        <footer>
+            <div class="footerWrapper">
+                <p>© 2016 Robomatter, Inc.</p>
+                <p>Portions of this product are manufactured under license from Carnegie Mellon University.</p>
+            </div>
+        </footer>
+        <!-- extra elements -->
+        <div class="topBtn-fixed"><a href="#anchor-top">Top</a>
+        </div>
+    </body>
+</html>

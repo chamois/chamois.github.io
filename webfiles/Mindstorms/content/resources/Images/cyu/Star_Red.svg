@@ -1,0 +1,49 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="68px" height="65px" viewBox="0 0 68 65">
+<defs>
+<radialGradient id="Gradient_1" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="23.087500000000006" fx="0" fy="0" gradientTransform="matrix( 0.9999999999999999, 0, 0, 0.9999999999999999, 53.5,636.15) " spreadMethod="pad">
+<stop  offset="0%" stop-color="#E27272"/>
+
+<stop  offset="76.47058823529412%" stop-color="#D43232"/>
+
+<stop  offset="80.3921568627451%" stop-color="#D43232"/>
+</radialGradient>
+
+<g id="Star_Red_0_Layer1_0_FILL">
+<path fill="url(#Gradient_1)" stroke="none" d="
+M 81.8 629.4
+Q 83.6 627.7 83.1 626.2 82.65 624.7 80.2 624.35
+L 63.65 621.95 56.3 607
+Q 55.2 604.75 53.6 604.75 52.05 604.75 50.95 607
+L 43.55 621.95 27.05 624.35
+Q 24.6 624.7 24.1 626.2 23.65 627.7 25.4 629.4
+L 37.35 641.05 34.55 657.5
+Q 34.1 659.95 35.4 660.9 36.65 661.8 38.85 660.65
+L 53.6 652.9 68.4 660.65
+Q 70.6 661.8 71.85 660.9 73.1 659.95 72.7 657.5
+L 69.9 641.05 81.8 629.4 Z"/>
+</g>
+
+<path id="Star_Red_0_Layer1_0_1_STROKES" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 63.65 621.95
+L 56.3 607
+Q 55.2 604.75 53.6 604.75 52.05 604.75 50.95 607
+L 43.55 621.95 27.05 624.35
+Q 24.6 624.7 24.1 626.2 23.65 627.7 25.4 629.4
+L 37.35 641.05 34.55 657.5
+Q 34.1 659.95 35.4 660.9 36.65 661.8 38.85 660.65
+L 53.6 652.9 68.4 660.65
+Q 70.6 661.8 71.85 660.9 73.1 659.95 72.7 657.5
+L 69.9 641.05 81.8 629.4
+Q 83.6 627.7 83.1 626.2 82.65 624.7 80.2 624.35
+L 63.65 621.95 Z"/>
+</defs>
+
+<g transform="matrix( 1.08892822265625, 0, 0, 1.08892822265625, 34.4,32.95) ">
+<g transform="matrix( 1, 0, 0, 1, -53.6,-633) ">
+<use xlink:href="#Star_Red_0_Layer1_0_FILL"/>
+
+<use xlink:href="#Star_Red_0_Layer1_0_1_STROKES"/>
+</g>
+</g>
+</svg>

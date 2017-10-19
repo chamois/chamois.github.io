@@ -1,0 +1,1 @@
+define({r:0.5,st:'Stem',n:1,t:[0,76],u:['../Content/Curriculum - Robotics/Robo 4/A_Review/A_Moving Forward/Moving Forward 1.htm'],s:['+','instanc','temporarili'],p:[['+',131],['automatically',94],['compiles',34],['explains',37],['into',47],['need',89],['program',39],['send',98],['the',69],['type',5],['your',35]]});

@@ -1,0 +1,194 @@
+<Version>1.0.1</Version>
+
+<ProgrammingBlock type="comment">Goal: Make the program do the following...</ProgrammingBlock>
+
+<ProgrammingBlock type="comment">1) Drive Forward 1 rotation at half power</ProgrammingBlock>
+
+<ProgrammingBlock type="comment">2) Turn Right 90 degrees at full power</ProgrammingBlock>
+
+<ProgrammingBlock type="comment">3) Drive backwards until the sonar sensor reads less than 200 mm</ProgrammingBlock>
+
+<ProgrammingBlock type="comment">4) Stop all motors</ProgrammingBlock>
+
+<ProgrammingBlock type="comment">Rules...</ProgrammingBlock>
+
+<ProgrammingBlock type="comment">You may not add any commands</ProgrammingBlock>
+
+<ProgrammingBlock type="comment">You may not change the parameters of any commands</ProgrammingBlock>
+
+<ProgrammingBlock type="comment">You may only remove commands by commenting them out.</ProgrammingBlock>
+
+<ProgrammingBlock type="functionCall" function="backward">
+    <Parameters>
+        <Parameter name="quantity" type="float">1</Parameter>
+        <Parameter name="unitType" type="base typedef" typeDef="tMovementUnits">rotations</Parameter>
+        <Parameter name="speed" type="short">50</Parameter>
+    </Parameters>
+</ProgrammingBlock>
+
+<ProgrammingBlock type="functionCall" function="moveMotor">
+    <Parameters>
+        <Parameter name="motorPort" type="base typedef" typeDef="tMotor">leftMotor</Parameter>
+        <Parameter name="quantity" type="float">1</Parameter>
+        <Parameter name="unitType" type="base typedef" typeDef="tMovementUnits">rotations</Parameter>
+        <Parameter name="speed" type="short">75</Parameter>
+    </Parameters>
+</ProgrammingBlock>
+
+<ProgrammingBlock type="functionCall" function="forward">
+    <Parameters>
+        <Parameter name="quantity" type="float">1</Parameter>
+        <Parameter name="unitType" type="base typedef" typeDef="tMovementUnits">rotations</Parameter>
+        <Parameter name="speed" type="short">50</Parameter>
+    </Parameters>
+</ProgrammingBlock>
+
+<ProgrammingBlock type="functionCall" function="turnRight">
+    <Parameters>
+        <Parameter name="quantity" type="float">1</Parameter>
+        <Parameter name="unitType" type="base typedef" typeDef="tMovementUnits">rotations</Parameter>
+        <Parameter name="speed" type="short">50</Parameter>
+    </Parameters>
+</ProgrammingBlock>
+
+<ProgrammingBlock type="OneLineLoop" loopType="WaitUntil">
+    <Parameters>
+        <Parameter name="LHS" type="typedef">getBumperValue(bumpSwitch)</Parameter>
+        <Parameter name="operator" type="typedef">==</Parameter>
+        <Parameter name="RHS" type="bool" typeDef="bool">false</Parameter>
+    </Parameters>
+</ProgrammingBlock>
+
+<ProgrammingBlock type="functionCall" function="turnLeft">
+    <Parameters>
+        <Parameter name="quantity" type="float">90</Parameter>
+        <Parameter name="unitType" type="base typedef" typeDef="tMovementUnits">degrees</Parameter>
+        <Parameter name="speed" type="short">100</Parameter>
+    </Parameters>
+</ProgrammingBlock>
+
+<ProgrammingBlock type="functionCall" function="turnRight">
+    <Parameters>
+        <Parameter name="quantity" type="float">90</Parameter>
+        <Parameter name="unitType" type="base typedef" typeDef="tMovementUnits">degrees</Parameter>
+        <Parameter name="speed" type="short">50</Parameter>
+    </Parameters>
+</ProgrammingBlock>
+
+<ProgrammingBlock type="functionCall" function="stopAllMotors"/>
+
+<ProgrammingBlock type="functionCall" function="turnRight">
+    <Parameters>
+        <Parameter name="quantity" type="float">90</Parameter>
+        <Parameter name="unitType" type="base typedef" typeDef="tMovementUnits">degrees</Parameter>
+        <Parameter name="speed" type="short">100</Parameter>
+    </Parameters>
+</ProgrammingBlock>
+
+<ProgrammingBlock type="functionCall" function="backward">
+    <Parameters>
+        <Parameter name="quantity" type="float">1</Parameter>
+        <Parameter name="unitType" type="base typedef" typeDef="tMovementUnits">rotations</Parameter>
+        <Parameter name="speed" type="short">50</Parameter>
+    </Parameters>
+</ProgrammingBlock>
+
+<ProgrammingBlock type="functionCall" function="setMultipleMotors">
+    <Parameters>
+        <Parameter name="speed" type="short">-50</Parameter>
+        <Parameter name="firstMotor" type="base typedef" typeDef="tMotor">rightMotor</Parameter>
+        <Parameter name="secondMotor" type="base typedef" typeDef="tMotor">leftMotor</Parameter>
+        <Parameter name="thirdMotor" type="base typedef" typeDef="tMotor">noMotorOnPort</Parameter>
+        <Parameter name="fourthMotor" type="base typedef" typeDef="tMotor">noMotorOnPort</Parameter>
+    </Parameters>
+</ProgrammingBlock>
+
+<ProgrammingBlock type="functionCall" function="stopAllMotors"/>
+
+<ProgrammingBlock type="OneLineLoop" loopType="WaitUntil">
+    <Parameters>
+        <Parameter name="LHS" type="typedef">getDistanceValue(distanceMM)</Parameter>
+        <Parameter name="operator" type="typedef">&gt;</Parameter>
+        <Parameter name="RHS" type="short">200</Parameter>
+    </Parameters>
+</ProgrammingBlock>
+
+<ProgrammingBlock type="functionCall" function="setTouchLEDColor">
+    <Parameters>
+        <Parameter name="nDeviceIndex" type="base typedef" typeDef="tSensors">touchLED</Parameter>
+        <Parameter name="nColor" type="base typedef" typeDef="TSimpleColors">colorRedViolet</Parameter>
+    </Parameters>
+</ProgrammingBlock>
+
+<ProgrammingBlock type="OneLineLoop" loopType="WaitUntil">
+    <Parameters>
+        <Parameter name="LHS" type="typedef">getDistanceValue(distanceMM)</Parameter>
+        <Parameter name="operator" type="typedef">&lt;=</Parameter>
+        <Parameter name="RHS" type="short">40</Parameter>
+    </Parameters>
+</ProgrammingBlock>
+
+<ProgrammingBlock type="OneLineLoop" loopType="WaitUntil">
+    <Parameters>
+        <Parameter name="LHS" type="typedef">getDistanceValue(distanceMM)</Parameter>
+        <Parameter name="operator" type="typedef">&lt;</Parameter>
+        <Parameter name="RHS" type="short">200</Parameter>
+    </Parameters>
+</ProgrammingBlock>
+
+<ProgrammingBlock type="functionCall" function="stopAllMotors"/>
+
+<RobotConfiguration>#pragma config(Sensor, port2,  touchLED,       sensorVexIQ_LED)
+#pragma config(Sensor, port3,  colorDetector,  sensorVexIQ_ColorHue)
+#pragma config(Sensor, port4,  gyroSensor,     sensorVexIQ_Gyro)
+#pragma config(Sensor, port7,  distanceMM,     sensorVexIQ_Distance)
+#pragma config(Sensor, port8,  bumpSwitch,     sensorVexIQ_Touch)
+#pragma config(Motor,  motor1,          leftMotor,     tmotorVexIQ, openLoop, driveLeft, encoder)
+#pragma config(Motor,  motor6,          rightMotor,    tmotorVexIQ, openLoop, reversed, driveRight, encoder)
+#pragma config(Motor,  motor10,         armMotor,      tmotorVexIQ, openLoop, encoder)
+#pragma config(Motor,  motor11,         clawMotor,     tmotorVexIQ, openLoop, encoder)
+//*!!Code automatically generated by 'ROBOTC' configuration wizard               !!*//
+</RobotConfiguration>
+
+<CSource>#pragma config(Sensor, port2,  touchLED,       sensorVexIQ_LED)
+#pragma config(Sensor, port3,  colorDetector,  sensorVexIQ_ColorHue)
+#pragma config(Sensor, port4,  gyroSensor,     sensorVexIQ_Gyro)
+#pragma config(Sensor, port7,  distanceMM,     sensorVexIQ_Distance)
+#pragma config(Sensor, port8,  bumpSwitch,     sensorVexIQ_Touch)
+#pragma config(Motor,  motor1,          leftMotor,     tmotorVexIQ, openLoop, driveLeft, encoder)
+#pragma config(Motor,  motor6,          rightMotor,    tmotorVexIQ, openLoop, reversed, driveRight, encoder)
+#pragma config(Motor,  motor10,         armMotor,      tmotorVexIQ, openLoop, encoder)
+#pragma config(Motor,  motor11,         clawMotor,     tmotorVexIQ, openLoop, encoder)
+//*!!Code automatically generated by 'ROBOTC' configuration wizard               !!*//
+
+
+task main()
+{
+	// Goal: Make the program do the following...
+	// 1) Drive Forward 1 rotation at half power
+	// 2) Turn Right 90 degrees at full power
+	// 3) Drive backwards until the sonar sensor reads less than 200 mm
+	// 4) Stop all motors
+	// Rules...
+	// You may not add any commands
+	// You may not change the parameters of any commands
+	// You may only remove commands by commenting them out.
+	backward(1, rotations, 50);
+	moveMotor(leftMotor, 1, rotations, 75);
+	forward(1, rotations, 50);
+	turnRight(1, rotations, 50);
+	waitUntil (getBumperValue(bumpSwitch) == false);
+	turnLeft(90, degrees, 100);
+	turnRight(90, degrees, 50);
+	stopAllMotors();
+	turnRight(90, degrees, 100);
+	backward(1, rotations, 50);
+	setMultipleMotors(-50, rightMotor, leftMotor, noMotorOnPort, noMotorOnPort);
+	stopAllMotors();
+	waitUntil (getDistanceValue(distanceMM) &gt; 200);
+	setTouchLEDColor(touchLED, colorRedViolet);
+	waitUntil (getDistanceValue(distanceMM) &lt;= 40);
+	waitUntil (getDistanceValue(distanceMM) &lt; 200);
+	stopAllMotors();
+}
+</CSource>

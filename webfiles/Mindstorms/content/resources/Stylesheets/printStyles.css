@@ -1,0 +1,595 @@
+﻿@media print {
+    
+    /*========================================= Set margins for diferent page sizes ====================================================================================*/
+    /* A5 */
+    
+    @media print and (max-width: 14.8cm) and (max-height: 21cm) and (orientation: portrait) {
+        @page: left {
+            margin: 1cm 1.5cm 1.5cm 1cm;
+        }
+        @page: right {
+            margin: 1cm 1cm 1.5cm 1.5cm;
+        }
+    }
+    
+    /* A4 and A3 */
+    @media print and (max-width: 29.7cm) and (max-height: 42cm) and (orientation: portrait) {
+        @page: left {
+            margin: 2cm 3cm 3cm 2cm;
+        }
+        @page: right {
+            margin: 2cm 2cm 3cm 3cm;
+        }
+    }
+    
+    /*========================================= Major elements that DO NOT get displayed ====================================================================================*/
+    
+    nav.tab-bar {
+        display: none;
+    }
+    
+    .MCToggler {
+        display: none;
+    }
+    
+    .breadcrumbBar {
+        display: none;
+    }
+    
+    .teacherBanner {
+        display: none;
+    }
+    
+    .navWrapper {
+        display: none;
+    }
+	
+	._Skins_SideMenu {
+    	display: block !important;
+	}
+        
+    .large-3.toc-menu {
+        display: none;
+    }
+	
+	.large-3 ._Skins_SideMenu {
+    	display: none !important;
+	}
+    
+    .topBtn-fixed {
+        display: none;
+    }
+    
+    .heroImageWrapper {
+        display: none;
+    }
+    
+    img.heroImageBg {
+        display: none;
+    }
+    
+    
+    /*========================================= General styles ====================================================================================*/
+    
+    * {
+	    overflow: visible !important;
+	    position: relative;
+		/* This fixes a Firefox bug that only prints the first page */
+	}
+	
+	html,
+    body {
+        background: #fff;
+        font-size: 10pt;
+        line-height: 13px;
+		overflow: visible !important;
+        
+    }
+        
+    @media screen {
+        body {
+            max-width: 1280px;
+            margin: 50px;
+        }
+    }
+	
+	.printOnly {
+		display: block;
+	}
+	
+	footer {
+		background: #fff;
+	   	border-top: 1px solid #ccc;
+	  	color: #666;
+       	page-break-before: auto !important;
+		page-break-inside: avoid !important;
+    }
+	
+	.pageBreak	{ 
+		display: block !important; 
+		page-break-before: always !important; 
+	}
+    
+    /*========================================= Text styles ====================================================================================*/
+   
+    html,
+    body,
+    h1,
+    .h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    a,
+    div,
+    ol,
+    ul,
+    li,
+    dl,
+    dt,
+    dd,
+    abbr,
+    cite,
+    sub,
+    sup,
+    small,
+    blockquote {
+        color: #333 !important;
+        border-color: #333 !important;
+    }
+    
+    body,
+    p {
+        line-height: 150%;
+    }
+    
+    p {
+        margin: 0 0 1em 0;
+        font-size: 11pt;
+        color: black;
+        orphans: 3;
+        widows: 3;
+    }
+    
+    a {
+        border-bottom: dotted 1pt #ccc;
+        color: #39F;
+        text-decoration: none;
+    }
+    
+    /*========================================= Headers ====================================================================================*/
+    
+    h1,
+	.h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        clear: both;
+        letter-spacing: normal;
+        line-height: 1em;
+        page-break-after: avoid !important;
+        page-break-before: auto !important;
+		page-break-inside: avoid;
+        orphans: 3;
+        widows: 3;
+    }
+    
+    h1,
+    .h1 {
+        margin: 0;
+    }
+	
+	h3 {
+    	margin: 40px 0 15px;
+	}
+    
+    /*========================================= Lists ====================================================================================*/
+     
+    ul,
+    ol,
+    ul li,
+    ol li {
+        margin-left: 10px;
+    }
+   
+    ol li {
+        list-style-type: decimal;
+    }
+   
+    ul li {
+        list-style-type: disc;
+    }
+    
+    hr {
+        border: 0;
+        border-bottom: solid 1pt #ccc;
+        height: 1pt;
+    }
+    
+    /*========================================= Images and videos ====================================================================================*/
+    
+    img {
+        border: solid 1px #000;
+        display: block;
+		page-break-before: auto !important;
+   		page-break-after: auto !important;
+        page-break-inside: avoid !important;
+        margin: 0 1em 1em 1em;
+    }
+	
+	.imgWrapper {
+        display: block;
+		page-break-before: auto !important;
+   		page-break-after: auto !important;
+        page-break-inside: avoid !important;
+    }
+	
+	figcaption {
+		margin-top: 0;
+	}
+    
+    video._0 {
+        margin: 0;
+    }
+    
+    /*========================================= Tables ====================================================================================*/
+    
+    table {
+        margin: 0 0 1em 0;
+        width: 80%;
+    }
+    
+    td,
+    th {
+        border-bottom: solid 1pt #000;
+        padding: 0.25em;
+    }
+    
+    th,
+    thead td {
+        border-bottom: solid 3pt #000;
+        font-size: 120%;
+        font-weight: bold;
+        text-align: left;
+    }
+    
+    code,
+    pre {
+        border-left: solid 1pt #ccc;
+        font-family: "Courier New", Courier, monospace !important;
+        display: block;
+        margin: 1em;
+        max-width: 80%;
+        padding-left: 1em;
+        white-space: pre-wrap;
+        white-space: -moz-pre-wrap;
+        /* FF */
+        white-space: -pre-wrap;
+        /* Opera 4-6 */
+        white-space: -o-pre-wrap;
+        /* Opera 7 */
+        word-wrap: break-word;
+        /* IE */
+    }
+    
+    /*========================================= Hero Banner ====================================================================================*/
+    
+    .row.heroBannerWrapper,
+    .row.heroBannerWrapperBg {
+        height: 175px;
+        margin: 0 auto;
+        background: #fff !important;
+    }
+    
+    .heroTextWrapper {
+        margin: 0 !important;
+    }
+	
+	.heroTextWrapper img {
+		filter: url(inverse.svg#negative);
+	    -webkit-filter: invert(100%);
+	    filter: invert(100%);
+	}
+    
+    .heroTextWrapper .mainHeroheading {
+        text-shadow: none !important;
+    }
+    
+    .heroTextWrapper .mainHeroheading,
+    .heroTextWrapper .bottomHeroheading,
+    .heroTextWrapper .topHeroheading {
+        color: #000;
+    }
+	
+	.row.heroBannerWrapper .mainHeroheading {
+		padding: 0 30px 0 0;
+		background: #fff;
+		font-size: 4.5em;
+	}
+	
+	/*========================================= Home Page ====================================================================================*/
+	
+	.moduleSection {
+    	background: #fff;
+	}
+	
+	.medium-6.large-4.columns.moduleBoxWrapper, .medium-6.large-6.columns.moduleBoxWrapper {
+	    width: 50%;
+	    float: left !important;
+		page-break-before: auto !important;
+   		page-break-after: auto !important;
+        page-break-inside: avoid !important;
+	}
+	
+	.moduleBox {
+		height: 350px;
+	}
+	
+	.moduleBoxIcon {
+		margin: -60px auto 12px;
+	}		
+	
+	.moduleBoxBtnWrapper {
+		display: none;
+	}
+	
+	.explosionTitle, .bannerTexture, .heroTitleBanner {
+		display: none;
+	}
+	
+	/*========================================= Teacher Notes ====================================================================================*/
+	
+	.icon span img {
+		display: none;
+	}
+	
+	.icon h3, .sectionContent h3 {
+		clear: none;
+		margin: 30px 0 15px;
+	}
+	
+	.icon p, .icon ul, .icon ol {
+		padding-left: 0;
+	}
+	
+	.icon > ul {
+	    padding-left: 0;
+	}
+	
+	section {
+    	margin: 0 0 60px;
+	}
+	
+	.section1, .section2, .section3 {
+		page-break-before: auto !important;
+   		page-break-after: auto !important;
+	}
+	
+	.section1 h2, .section2 h2, .section3 h2 {
+    	height: 35px;
+		padding: 0;
+		background: #fff;
+	    border-bottom: 1px solid #333;
+		page-break-before: always !important;
+	}
+	
+	.sectionContent {
+	    margin: 35px 0 0 0;
+	}
+	
+	.section1 h2::before {
+	    content: "1: ";
+	}
+	
+	.section2 h2::before {
+	    content: "2: ";
+	}
+	
+	.section3 h2::before {
+	    content: "3: ";
+	}
+	
+    /*========================================= Call Out Boxes ====================================================================================*/
+    
+	.box1 h2, .box2 h2, .callOut.quickTips h2, .callOut.studentAction h2, .callOut.tryIt h2 {
+    	background-color: #fff;
+		background-image: none;
+		border-bottom: 1px solid #333;
+	}
+	
+	.callOut {
+	    background-color: #fff;
+	}
+	
+	.callOut.box1, .callOut.box2, .callOut.quickTips, .callOut.studentAction, .callOut.didYouKnow, .callOut.tryIt {
+	    border: 1px solid #ccc;
+		page-break-before: auto !important;
+   		page-break-after: auto !important;
+        page-break-inside: avoid !important;
+	}
+	
+	.callOut h2 {
+    	margin: -10px -19px 20px;
+		padding: 7px 7px 7px 10px;
+	}
+	
+	.circle {
+        display: none;
+    }
+	
+    /*========================================= Check Your Understanding ====================================================================================*/
+    
+    .checkYourUnderstanding {
+        margin: 40px 0;
+        padding: 0;
+        page-break-before: auto !important;
+   		page-break-after: auto !important;
+    }
+    
+    .checkYourUnderstanding h2 {
+        margin: 0 0 25px;
+		height: 35px;
+		background-color: #fff;
+		background-image: none;
+		border-bottom: 1px solid #333;
+    }
+    
+    .checkYourUnderstanding > ol {
+        margin-left: 0;
+    }
+	
+	.checkYourUnderstanding ol li {
+        page-break-before: auto !important;
+   		page-break-after: auto !important;
+        page-break-inside: avoid !important;
+    }
+	
+	/*========================================= Index Pages ====================================================================================*/
+	
+	.moduleTitle {
+	    padding: 8px 0 0 0;
+	    border-bottom: 1px solid #333;
+	}
+	
+	.moduleTitle h2 {
+	    display: none;
+	}
+	
+	.moduleTitle .moduleIcon {
+	    display: none;
+	}
+	
+	.moduleContents {
+		padding: 20px 0 10px 0;
+		background: #fff;
+	}
+	
+	.moduleContents ul {	
+		page-break-after: avoid !important;
+        page-break-before: auto !important;
+	}
+	
+	.teacher-notes-li a {
+	    background-color: #fff;
+	    border: 1px solid #999;
+	    background-image: none;
+	    -webkit-box-shadow: none;
+	    -moz-box-shadow: none;
+	    box-shadow: none;
+	}
+	
+	.teacher-notes-li a::after {
+    	display: none;
+    }
+	
+	.moduleContents ul.menu._Skins_SideMenu.mc-component
+	{
+		margin: 0;
+		padding: 10px 0 40px;
+	}
+	
+	.moduleContents ul.menu._Skins_SideMenu.mc-component li > a
+	{
+		display: none;
+	}
+	
+	.moduleContents .has-children > a.selected + ul.sub-menu li
+	{
+		list-style: inside none disc;
+		margin: 20px 0;
+		padding-left: 1em;
+	    text-indent: -1em;
+	}
+	
+	.teacher-notes-li > a {
+		text-indent: 0;
+	}
+	
+	.moduleContents .has-children > a.selected + ul.sub-menu li.teacher-notes-li
+	{
+		list-style: none;
+	}
+	
+	.moduleContents .has-children > a.selected + ul.sub-menu a
+	{
+		display: initial;
+	}
+	
+	.moduleContents ul.menu._Skins_SideMenu.mc-component,
+	.moduleContents .has-children > a.selected + ul.sub-menu
+	{
+		background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+	}
+	
+	.moduleContents ul.menu._Skins_SideMenu.mc-component a
+	{
+		padding: 1 10px;
+		font-weight: 700;
+		line-height: 1.3em;
+		padding: 0;
+	}
+	
+	.moduleContents ul.menu._Skins_SideMenu.mc-component li > a:link,
+	.moduleContents ul.menu._Skins_SideMenu.mc-component li > a:visited
+	{
+		color: #444;
+	}
+	
+	.moduleContents ul.menu._Skins_SideMenu.mc-component li > a:hover,
+	.moduleContents ul.menu._Skins_SideMenu.mc-component li > a:active
+	{
+		background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	}
+
+	    
+    /*========================================= Misc ====================================================================================*/
+    
+    blockquote,
+    q {
+        border-left: solid 1pt #ccc;
+        display: block;
+        font-size: 120%;
+        font-weight: bold;
+        margin-left: 0.65em;
+        max-width: 80%;
+        padding: 1em;
+        quotes: none;
+    }
+    
+    blockquote p {
+        margin-left: 1em;
+        margin-right: 5em;
+    }
+    
+    blockquote:before,
+    q:before {
+        color: #999;
+        content: "\201C";
+        font-size: 300%;
+    }
+    
+    blockquote:after,
+    q:after {
+        content: " \2014\0000a0" attr(cite);
+        display: block;
+        font-size: 100%;
+        font-style: italic;
+        font-weight: normal;
+        text-align: right;
+    }
+    
+    blockquote,
+    blockquote:before,
+    code,
+    fieldset,
+    form,
+    pre,
+    q:before,
+    table {
+        page-break-inside: avoid;
+    }
+}

@@ -1,0 +1,53 @@
+﻿/*<meta />*/
+
+/*variations, color swaps, etc for objects 
+  styled in MainStyles.css */
+
+.moduleTitle .moduleIcon.iconList,
+.sitemapTitle .sitemapIcon.iconList
+{
+	background-image: url('../Images/Computer Science/Template/moduleIcon_list.png');
+}
+
+.versionDisplay {
+    color: #999;
+    float: right;
+    font-size: 0.8em;
+    margin: -10px 0 15px;
+    padding: 0 1.2em;
+}
+
+
+/*special glossary that displays blocks instead of just plain text*/
+.MCTextPopup.MCTextPopupHotSpot[text-display='none']{
+
+    /*Style for elements with this selector sans 'text-display' attribute
+      is already defined in MainStyles.css. This is for special case 
+      where the text in the glossary should be hidden*/
+    background-image: none;
+    padding-right: 0px;
+}
+
+}
+.MCTextPopup.MCTextPopupHotSpot[text-display='none'] *{
+   /* font-size: 33em;
+    color: red;*/
+} 
+
+.MCTextPopup.MCTextPopupHotSpot img{ 
+    padding: 0;
+    margin: 0;
+
+    vertical-align: -18px;
+}
+
+
+
+/* Small Layout Hero Banner */
+
+@media screen and (max-width: 20em)
+{
+	.versionDisplay {
+	    float: none;
+	}
+}

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html class="noGlossary" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="2238" MadCap:lastWidth="1899">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="description" content="" />
+        <meta name="author" content="" /><title></title>
+        <script type="text/javascript" src="../Scripts/page_init.js">
+        </script>
+    </head>
+    <body>
+        <!-- anchor "TOP" --><span id="anchor-top"></span>
+        <div class="rowCenter breadcrumbBar">
+            <MadCap:topicToolbarProxy style="mc-topic-toolbar-items: Print RemoveHighlight ExpandAll PreviousTopic NextTopic;" />
+            <MadCap:breadcrumbsProxy />
+        </div>
+        <div class="teacherBanner">
+            <p>Teacher Version</p>
+        </div>
+        <div class="row heroBannerWrapperBg">
+            <div class="heroBanner">
+                <img class="bannerLogo" src="../../Resources/Images/Robotics/Template/RM-Logo_white.png" alt="Robomatter logo" width="100" height="49px" />
+                <div class="heroTextWrapper">
+					<span class="explosionTitleWrapper">
+                    	<img class="explosionTitle" src="../Images/Computer Science/Template/CS_Explosion-withText.png" alt="" />						<div class="explosionTitle-subtitle"></div>
+					</span>
+                    <img class="printOnly" src="../../Resources/Images/Robotics/Template/RM-Logo_white.png" alt="Robomatter logo" width="100" height="49px" />
+                    <h1 class="mainHeroheading printOnly"><span>IDEAS</span>
+                    </h1>
+                    <h1 class="bottomHeroheading printOnly">Computer Science</h1>
+                </div>
+                <div class="heroImageWrapper">
+                    <img class="heroImage" src="../Images/Computer Science/Template/CS_HeroesTogetherTeen.png" alt="Hero Image" />
+                </div>
+            </div>
+            <div class="bannerTexture">
+            </div>
+        </div>
+        <!-- end heroBannerWrapper -->
+        <MadCap:bodyProxy />
+        <footer>
+            <div class="footerWrapper">
+                <p>© 2016 Robomatter, Inc.</p>
+                <p>Portions of this product are manufactured under license from Carnegie Mellon University.</p>
+            </div>
+        </footer>
+        <!-- extra elements -->
+        <div class="topBtn-fixed"><a href="#anchor-top">Top</a>
+        </div>
+    </body>
+</html>

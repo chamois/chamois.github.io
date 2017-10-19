@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MadCapSynonyms xml:lang="en-us">
+    <Groups>
+        <SynonymGroup Stem="true">
+            <Word Stem="checkpoint">checkpoint</Word>
+            <Word Stem="check point">check point</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="stopping point">stopping point</Word>
+            <Word Stem="stop til">stop tile</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="starting point">starting point</Word>
+            <Word Stem="start til">start tile</Word>
+        </SynonymGroup>
+    </Groups>
+    <Directional />
+</MadCapSynonyms>
