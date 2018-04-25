@@ -1,7 +1,7 @@
 'Root path where all folders and files are present
 'Change according to your requirement
 
-strPath="C:\Users\gpusey\Documents\GitHub\chamois.github.io\chamois.github.io\"
+strPath="C:\Users\gpusey\Documents\GitHub\chamois.github.io\"
 
 Set objFso = CreateObject("Scripting.FileSystemObject")
 
