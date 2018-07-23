@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet --><!-- Created with iSpring --><!-- 720 578 --><!--type flash --><!--mainFolder ./ -->
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="msapplication-tap-highlight" content="no" />
+	<title>test | Powered by iSpring E-Learning Software</title>
+	<script src="data/isplayer.js"></script>
+
+	<style>
+		html, body {
+			background-color: #c0c0c0;
+			overflow: hidden;
+		}
+	</style>
+</head>
+<body>
+<div id="content"></div><div id='link' style='position: absolute; text-align: center; width: 100%;'><a  style='font-family: verdana; font-size: 11px; color: #0000CC;' href='http://www.ispringsolutions.com/go/ispring-presentations?ref=free-player-link' title='Create e-Learning courses in PowerPoint with iSpring Authoring tools'>Created with iSpring E-Learning Software</a></div>
+<script>
+	(function(){
+		var ldr = new ispring.presenter.loader.FlashPresentationLoader();
+		ldr.load("test.swf", "content", "FlashPresentation", 720, 578);
+		var link = document.getElementById("link");
+		ldr.playerPositionChangedEvent().addHandler(function(x, y) {
+			link.style.top = (y + 578 + 3) + "px";
+		});
+	})();
+</script>
+</body>
+</html>
