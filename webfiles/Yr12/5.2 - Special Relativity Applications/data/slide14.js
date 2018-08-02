@@ -1,0 +1,8 @@
+(function(){var loadHandler=window['sl_{C94CDE7F-16F2-454E-B07C-83CA28395DD7}'];loadHandler&&loadHandler(13, '<div id="spr0_50e3f7af"><div id="spr1_50e3f7af" class="kern"><img id="img5_50e3f7af" src="data/img7.png" width="720px" height="540px" alt="" style="left:0px;top:0px;"/><div id="spr3_50e3f7af" style="left:-0.75px;top:-0.563px;"><img id="img0_50e3f7af" src="data/img0.png" width="721.5" height="82" alt=""/></div><div id="spr4_50e3f7af" style="left:345px;top:-0.563px;"><img id="img1_50e3f7af" src="data/img1.png" width="375" height="47.812" alt=""/></div><div id="spr5_50e3f7af" style="left:-2.751px;top:-1.714px;"><div id="spr6_50e3f7af" style="left:0.001px;top:34.523px;"><img id="img2_50e3f7af" src="data/img2.png" width="722.775" height="50.106" alt=""/></div><div id="spr7_50e3f7af" style="left:0.65px;top:40.368px;"><img id="img3_50e3f7af" src="data/img3.png" width="723.63" height="41.02" alt=""/></div></div></div><div id="spr2_50e3f7af" class="kern"><div id="spr8_50e3f7af" style="left:36px;top:55.44px;"><div style="width:0px;"><span id="txt0_50e3f7af" data-width="628.242188" style="top:30.308px;">Improvement to classical relativity</span></div></div><div id="spr9_50e3f7af" style="left:18px;top:163px;"><img id="img4_50e3f7af" src="data/img20.png" width="686" height="357" alt="The observed movement of a body within a moving frame of reference also needs adjusting:\
+\
+𝑢= 𝑣+ 𝑢 ′  1+ 𝑣  𝑢 ′   𝑐 2        𝑢′= 𝑢−𝑣 1− 𝑢 𝑣  𝑐 2   \
+\
+\
+u = velocity of u according to outside observer (frame of reference A)\
+u’ = velocity of u within a different (moving) frame of reference, B.\
+v = velocity of frame of reference B that u is within"/></div></div></div>');})();

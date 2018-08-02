@@ -1,0 +1,9 @@
+(function(){var loadHandler=window['sl_{C94CDE7F-16F2-454E-B07C-83CA28395DD7}'];loadHandler&&loadHandler(15, '<div id="spr0_50e3fa5e"><div id="spr1_50e3fa5e" class="kern"><img id="img5_50e3fa5e" src="data/img7.png" width="720px" height="540px" alt="" style="left:0px;top:0px;"/><div id="spr3_50e3fa5e" style="left:-0.75px;top:-0.563px;"><img id="img0_50e3fa5e" src="data/img0.png" width="721.5" height="82" alt=""/></div><div id="spr4_50e3fa5e" style="left:345px;top:-0.563px;"><img id="img1_50e3fa5e" src="data/img1.png" width="375" height="47.812" alt=""/></div><div id="spr5_50e3fa5e" style="left:-2.751px;top:-1.714px;"><div id="spr6_50e3fa5e" style="left:0.001px;top:34.523px;"><img id="img2_50e3fa5e" src="data/img2.png" width="722.775" height="50.106" alt=""/></div><div id="spr7_50e3fa5e" style="left:0.65px;top:40.368px;"><img id="img3_50e3fa5e" src="data/img3.png" width="723.63" height="41.02" alt=""/></div></div></div><div id="spr2_50e3fa5e" class="kern"><div id="spr8_50e3fa5e" style="left:36px;top:55.44px;"><div style="width:0px;"><span id="txt0_50e3fa5e" data-width="280.444336" style="top:23.675px;">Slow Example</span></div></div><div id="spr9_50e3fa5e" style="left:44px;top:160px;"><img id="img4_50e3fa5e" src="data/img21.png" width="620" height="316" alt="Tommy is watching a very fast car moving away from him on a straight road at 70.0m/s. A truck is also moving in the same direction but is further in front the car. The truck is moving away from the car at a rate of 60m/s. Determine the truck’s velocity.\
+\
+Hint: Spot the moving frame of reference:  The car\
+\
+u = velocity of truck according to Tommy  Unknown\
+u’ = velocity of truck according to car\
+v = velocity of car according to Tommy\
+\
+𝑢=𝑣+ 𝑢 ′ =70+60=130 𝑚/𝑠"/></div></div></div>');})();
