@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+  
+  <meta charset="utf-8">
+  <title>Virtual Hubble's Law Lab</title>
+
+  
+  
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  
+  <script type="text/javascript" src="jquery.maphilight.js"></script>
+  
+  <script type="text/javascript">$(function() {
+        $('.map').maphilight();
+        $('#squidheadlink').mouseover(function(e) {
+            $('#squidhead').mouseover();
+        }).mouseout(function(e) {
+            $('#squidhead').mouseout();
+        }).click(function(e) { e.preventDefault(); });
+    });</script>
+</head><body style="background-color: black;">
+<img src="deepfield.png" class="map" usemap="#simple" height="599" width="950"><map name="simple">
+
+<area id="squidhead01" href="#" shape="circle" coords="120,92,30" alt="Octoface" data-maphilight="{&quot;stroke&quot;:false,&quot;fillColor&quot;:&quot;ff0000&quot;,&quot;fillOpacity&quot;:0.6}"  title="NGC-1337, d = 015 Mpc,  v = 1100 km/s">
+<area id="squidhead02" href="#" shape="circle" coords="261,28,30" alt="Octoface" data-maphilight="{&quot;stroke&quot;:false,&quot;fillColor&quot;:&quot;ff0000&quot;,&quot;fillOpacity&quot;:0.6}"  title="NGC-7854, d = 097 Mpc,  v = 6700 km/s">
+<area id="squidhead03" href="#" shape="circle" coords="415,83,30" alt="Octoface" data-maphilight="{&quot;stroke&quot;:false,&quot;fillColor&quot;:&quot;ff0000&quot;,&quot;fillOpacity&quot;:0.6}"  title="NGC-1579, d = 050 Mpc,  v = 3100 km/s">
+<area id="squidhead04" href="#" shape="circle" coords="854,74,30" alt="Octoface" data-maphilight="{&quot;stroke&quot;:false,&quot;fillColor&quot;:&quot;ff0000&quot;,&quot;fillOpacity&quot;:0.6}"  title="NGC-5362, d = 091 Mpc,  v = 5300 km/s">
+<area id="squidhead05" href="#" shape="circle" coords="798,218,30" alt="Octoface" data-maphilight="{&quot;stroke&quot;:false,&quot;fillColor&quot;:&quot;ff0000&quot;,&quot;fillOpacity&quot;:0.6}" title="NGC-8521, d = 158 Mpc,  v = 8900 km/s">
+<area id="squidhead06" href="#" shape="circle" coords="657,304,30" alt="Octoface" data-maphilight="{&quot;stroke&quot;:false,&quot;fillColor&quot;:&quot;ff0000&quot;,&quot;fillOpacity&quot;:0.6}" title="NGC-5796, d = 061 Mpc,  v = 3300 km/s">
+<area id="squidhead07" href="#" shape="circle" coords="58,308,30" alt="Octoface" data-maphilight="{&quot;stroke&quot;:false,&quot;fillColor&quot;:&quot;ff0000&quot;,&quot;fillOpacity&quot;:0.6}"  title="NGC-1257, d = 103 Mpc,  v = 5100 km/s">
+<area id="squidhead08" href="#" shape="circle" coords="250,382,30" alt="Octoface" data-maphilight="{&quot;stroke&quot;:false,&quot;fillColor&quot;:&quot;ff0000&quot;,&quot;fillOpacity&quot;:0.6}" title="NGC-0409, d = 034 Mpc,  v = 1800 km/s">
+<area id="squidhead09" href="#" shape="circle" coords="456,481,30" alt="Octoface" data-maphilight="{&quot;stroke&quot;:false,&quot;fillColor&quot;:&quot;ff0000&quot;,&quot;fillOpacity&quot;:0.6}" title="NGC-8796, d = 185 Mpc,  v = 9500 km/s">
+<area id="squidhead10" href="#" shape="circle" coords="873,468,30" alt="Octoface" data-maphilight="{&quot;stroke&quot;:false,&quot;fillColor&quot;:&quot;ff0000&quot;,&quot;fillOpacity&quot;:0.6}" title="NGC-0245, d = 020 Mpc,  v = 1200 km/s">
+</map>
+
+</body></html>
