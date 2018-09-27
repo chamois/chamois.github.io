@@ -1,0 +1,8 @@
+(function(){var loadHandler=window['sl_{39FCF978-F91A-40BA-8F1C-3F374789B456}'];loadHandler&&loadHandler(19, '<div id="spr0_4d7fabbf"><div id="spr1_4d7fabbf" class="kern"><img id="img5_4d7fabbf" src="data/img9.png" width="960px" height="540px" alt="" style="left:0px;top:0px;"/><div id="spr3_4d7fabbf" style="left:-1px;top:-0.563px;"><img id="img0_4d7fabbf" src="data/img0.png" width="962" height="82" alt=""/></div><div id="spr4_4d7fabbf" style="left:460px;top:-0.563px;"><img id="img1_4d7fabbf" src="data/img1.png" width="500" height="47.812" alt=""/></div><div id="spr5_4d7fabbf" style="left:-3.113px;top:-7.459px;"><div id="spr6_4d7fabbf" style="left:0px;top:46.009px;"><img id="img2_4d7fabbf" src="data/img2.png" width="963.275" height="50.111" alt=""/></div><div id="spr7_4d7fabbf" style="left:0.774px;top:51.864px;"><img id="img3_4d7fabbf" src="data/img3.png" width="964.465" height="41.023" alt=""/></div></div></div><div id="spr2_4d7fabbf" class="kern"><div id="spr8_4d7fabbf" style="left:48px;top:55.44px;"><div style="width:0px;"><span id="txt0_4d7fabbf" data-width="172.583008" style="top:23.675px;">Example</span></div></div><div id="spr9_4d7fabbf" style="left:58px;top:156px;"><img id="img4_4d7fabbf" src="data/img38.png" width="816" height="332" alt="Brodie loses his balance on the ladder and falls  Lucky for Brodie, the swimming pool is right underneath him! Woohoo!\
+At what speed does Brodie hit the pool? \
+\
+𝑣=    2𝐸 𝐾  𝑚  =   2×40000 40  =  2000 =44.7𝑚 𝑠 −1 \
+\
+We can also use this equation from last Semester   𝑣 2 = 𝑢 2 +2𝑎𝑠\
+\
+  𝑣 2 = 𝑢 2 +2𝑎𝑠=0+2×9.8×102=2000, so 𝐯=𝟒𝟒.𝟕 𝐦𝐬 −𝟏  WHOHHH!"/></div></div></div>');})();
