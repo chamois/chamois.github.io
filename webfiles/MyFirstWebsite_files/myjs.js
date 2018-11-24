@@ -18,4 +18,4 @@ window.onload = function() {
     openTab('tabintro', this, '#222');
 }
 
-/* Great job! Now decrypt the code with the 128 secret Key using AES decryption (ECB method)  */
+/* Great job! Now decrypt the code with the 128 bit secret Key using AES decryption (ECB method)  */
