@@ -1,0 +1,10 @@
+(function(){var loadHandler=window['sl_{F6AAD340-E8A1-4BE0-B1F7-9F99E5EDCAF2}'];loadHandler&&loadHandler(8, '<div id="spr0_14db8b95"><div id="spr1_14db8b95" class="kern"><img id="img6_14db8b95" src="data/img6.png" width="960px" height="540px" alt="" style="left:0px;top:0px;"/><div id="spr3_14db8b95" style="left:-1px;top:-0.563px;"><img id="img0_14db8b95" src="data/img0.png" width="962" height="82" alt=""/></div><div id="spr4_14db8b95" style="left:460px;top:-0.563px;"><img id="img1_14db8b95" src="data/img1.png" width="500" height="47.812" alt=""/></div><div id="spr5_14db8b95" style="left:-3.113px;top:-7.459px;"><div id="spr6_14db8b95" style="left:0px;top:46.009px;"><img id="img2_14db8b95" src="data/img2.png" width="963.275" height="50.111" alt=""/></div><div id="spr7_14db8b95" style="left:0.774px;top:51.864px;"><img id="img3_14db8b95" src="data/img3.png" width="964.465" height="41.023" alt=""/></div></div></div><div id="spr2_14db8b95" class="kern"><div id="spr8_14db8b95" style="left:48px;top:55.44px;"><div style="width:0px;"><span id="txt0_14db8b95" data-width="172.583008" style="top:23.675px;">Example</span></div></div><div id="spr9_14db8b95" style="left:57px;top:159px;"><img id="img4_14db8b95" src="data/img13.png" width="828" height="100" alt="A cook pours 0.80 kg of soup at 98.0 °C into a 1.00 kg vacuum flask ( 𝑐 𝑓𝑙𝑎𝑠𝑘 =32.0 𝐽𝑘 𝑔 −1  𝐾 −1 ). When the soup and flask reach thermal equilibrium, the temperature of the flask has gone from 10.0 °C to 97.0 °C. \
+Calculate the specific heat capacity of the soup."/></div><div id="spr10_14db8b95" style="left:358px;top:285px;"><img id="img5_14db8b95" src="data/img14.png" width="240" height="166" alt="Gained  Flask =−Lost  𝑆𝑜𝑢𝑝 \
+\
+𝑚𝑐∆𝑇=−𝑚𝑐∆𝑇\
+ 1×32×87 = 0.8×𝑐×1 \
+𝑐= 2784 0.8 =3480 𝐽𝑘 𝑔 −1  𝐾 −1  \
+\
+\
+\
+"/></div></div></div>');})();
