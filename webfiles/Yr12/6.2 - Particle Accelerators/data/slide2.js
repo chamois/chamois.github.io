@@ -1,0 +1,12 @@
+(function(){var loadHandler=window['sl_{20338C55-0382-47D0-A7B8-FB2E1E9E976B}'];loadHandler&&loadHandler(1, '<div id="spr0_9c009f6"><div id="spr1_9c009f6" class="kern"><img id="img5_9c009f6" src="data/img7.png" width="960px" height="540px" alt="" style="left:0px;top:0px;"/><div id="spr3_9c009f6" style="left:-1px;top:-0.563px;"><img id="img0_9c009f6" src="data/img0.png" width="962" height="82" alt=""/></div><div id="spr4_9c009f6" style="left:460px;top:-0.563px;"><img id="img1_9c009f6" src="data/img1.png" width="500" height="47.812" alt=""/></div><div id="spr5_9c009f6" style="left:-3.113px;top:-7.459px;"><div id="spr6_9c009f6" style="left:0px;top:46.009px;"><img id="img2_9c009f6" src="data/img2.png" width="963.275" height="50.111" alt=""/></div><div id="spr7_9c009f6" style="left:0.774px;top:51.864px;"><img id="img3_9c009f6" src="data/img3.png" width="964.465" height="41.023" alt=""/></div></div></div><div id="spr2_9c009f6" class="kern"><div id="spr8_9c009f6" style="left:48px;top:55.44px;"><div style="width:0px;"><span id="txt0_9c009f6" data-width="607.885742" style="top:23.675px;">Syllabus (ATAR Physics Unit 3)</span></div></div><div id="spr9_9c009f6" style="left:57px;top:156px;"><img id="img4_9c009f6" src="data/img6.png" width="844" height="316" alt="Magnets, magnetic materials, moving charges and current‐carrying wires experience a force in a magnetic field when they cut flux lines; this force is utilised in DC electric motors and particle accelerators\
+	This includes applying the relationships\
+ 𝑭=𝒒𝒗𝑩  where 𝒗⊥𝑩\
+A positively charged body placed in an electric field will experience a force in the direction of the field; the strength of the electric field is defined as the force per unit charge\
+	This includes applying the relationship\
+𝑬= 𝑭 𝒒 = 𝑽 𝒅 \
+When a charged body moves or is moved from one point to another in an electric field and its potential energy changes, work is done on the charge by the field\
+	This includes applying the relationship\
+𝑽= 𝑾 𝒒  \
+When an object experiences a net force of constant magnitude perpendicular to its velocity, it will undergo uniform circular motion, including circular motion on a horizontal plane and around a banked track; and vertical circular motion\
+	This includes applying the relationships:\
+		𝒗= 𝟐𝝅𝒓 𝑻   		 𝒂 𝒄 =  𝒗 𝟐  𝒓 		𝑭=𝒎 𝒂 𝒄 = 𝒎 𝒗 𝟐  𝒓 "/></div></div></div>');})();

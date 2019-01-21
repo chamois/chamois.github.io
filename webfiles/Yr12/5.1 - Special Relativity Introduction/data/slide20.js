@@ -1,15 +1,9 @@
-(function(){var loadHandler=window['sl_{AB2C7F3B-010A-4292-A86B-FF34A7EC6C34}'];loadHandler&&loadHandler(19, '<div id="spr0_232c0d79"><div id="spr1_232c0d79" class="kern"><img id="img5_232c0d79" src="data/img7.png" width="720px" height="540px" alt="" style="left:0px;top:0px;"/><div id="spr3_232c0d79" style="left:-0.75px;top:-0.563px;"><img id="img0_232c0d79" src="data/img0.png" width="721.5" height="82" alt=""/></div><div id="spr4_232c0d79" style="left:345px;top:-0.563px;"><img id="img1_232c0d79" src="data/img1.png" width="375" height="47.812" alt=""/></div><div id="spr5_232c0d79" style="left:-2.751px;top:-1.714px;"><div id="spr6_232c0d79" style="left:0.001px;top:34.523px;"><img id="img2_232c0d79" src="data/img2.png" width="722.775" height="50.106" alt=""/></div><div id="spr7_232c0d79" style="left:0.65px;top:40.368px;"><img id="img3_232c0d79" src="data/img3.png" width="723.63" height="41.02" alt=""/></div></div></div><div id="spr2_232c0d79" class="kern"><div id="spr8_232c0d79" style="left:35.52px;top:37.533px;"><div style="width:0px;"><span id="txt0_232c0d79" data-width="270.483398" style="top:0.294px;">Time Dilation</span></div></div><div id="spr9_232c0d79" style="left:31px;top:105px;"><img id="img4_232c0d79" src="data/img14.png" width="489" height="421" alt="𝑡= 2 𝑐    𝐿 2 +   𝑣𝑡 2   2      and     𝑡 0 = 𝑠 𝑣 = 2𝐿 𝑐    or 𝐿=  ct 0  2 \
-\
+(function(){var loadHandler=window['sl_{B02122CE-700C-455F-A25B-E37E9C32A3D3}'];loadHandler&&loadHandler(19, '<div id="spr0_9bafa8d"><div id="spr1_9bafa8d" class="kern"><img id="img5_9bafa8d" src="data/img7.png" width="960px" height="540px" alt="" style="left:0px;top:0px;"/><div id="spr3_9bafa8d" style="left:-1px;top:-0.563px;"><img id="img0_9bafa8d" src="data/img0.png" width="962" height="82" alt=""/></div><div id="spr4_9bafa8d" style="left:460px;top:-0.563px;"><img id="img1_9bafa8d" src="data/img1.png" width="500" height="47.812" alt=""/></div><div id="spr5_9bafa8d" style="left:-3.113px;top:-7.459px;"><div id="spr6_9bafa8d" style="left:0px;top:46.009px;"><img id="img2_9bafa8d" src="data/img2.png" width="963.275" height="50.111" alt=""/></div><div id="spr7_9bafa8d" style="left:0.774px;top:51.864px;"><img id="img3_9bafa8d" src="data/img3.png" width="964.465" height="41.023" alt=""/></div></div></div><div id="spr2_9bafa8d" class="kern"><div id="spr8_9bafa8d" style="left:48px;top:55.44px;"><div style="width:0px;"><span id="txt0_9bafa8d" data-width="270.483398" style="top:23.675px;">Time Dilation</span></div></div><div id="spr9_9bafa8d" style="left:57px;top:159px;"><img id="img4_9bafa8d" src="data/img15.png" width="644" height="324" alt="𝑡= 2 𝑐    𝐿 2 +   𝑣𝑡 2   2      and     𝑡 0 = 𝑠 𝑣 = 2𝐿 𝑐    or 𝐿=  ct 0  2 \
 So that means: \
 𝑡= 2 𝑐     𝑐 2  𝑡 0 2   2 2  +   𝑣 2  𝑡 2   2 2    \
 Square both sides\
-\
- 𝑡 2 =  2 2   𝑐 2    [     𝑐 2  𝑡 0 2   2 2   +   𝑣 2  𝑡 2   2 2    ]   \
-\
- 𝑡 2 =   𝑡 0 2 +   𝑣 2  𝑡 2   𝑐 2      \
-\
+ 𝑡 2 =  2 2   𝑐 2    [     𝑐 2  𝑡 0 2   2 2   +   𝑣 2  𝑡 2   2 2    ]                               𝑡 2 =   𝑡 0 2 +   𝑣 2  𝑡 2   𝑐 2      \
 Factorise:\
-\
  𝑡 2  1−  𝑣 2   𝑐 2   =  𝑡 0 2 \
 \
 So to find dilated time:                        𝑡 2 =   𝑡 0 2   1−  𝑣 2   𝑐 2       or        𝐭=   𝒕 𝟎    𝟏−  𝒗 𝟐   𝒄 𝟐      "/></div></div></div>');})();
