@@ -1,0 +1,9 @@
+(function(){var loadHandler=window['sl_{639D25C5-47C6-4409-A1C8-1FDF0E5E1FF1}'];loadHandler&&loadHandler(1, '<div id="spr0_e5d695b"><div id="spr1_e5d695b" class="kern"><img id="img5_e5d695b" src="data/img7.png" width="960px" height="540px" alt="" style="left:0px;top:0px;"/><div id="spr3_e5d695b" style="left:-1px;top:-0.563px;"><img id="img0_e5d695b" src="data/img0.png" width="962" height="82" alt=""/></div><div id="spr4_e5d695b" style="left:460px;top:-0.563px;"><img id="img1_e5d695b" src="data/img1.png" width="500" height="47.812" alt=""/></div><div id="spr5_e5d695b" style="left:-3.113px;top:-7.459px;"><div id="spr6_e5d695b" style="left:0px;top:46.009px;"><img id="img2_e5d695b" src="data/img2.png" width="963.275" height="50.111" alt=""/></div><div id="spr7_e5d695b" style="left:0.774px;top:51.864px;"><img id="img3_e5d695b" src="data/img3.png" width="964.465" height="41.023" alt=""/></div></div></div><div id="spr2_e5d695b" class="kern"><div id="spr8_e5d695b" style="left:48px;top:55.44px;"><div style="width:0px;"><span id="txt0_e5d695b" data-width="302.148438" style="top:23.675px;">Syllabus Points</span></div></div><div id="spr9_e5d695b" style="left:58px;top:162px;"><img id="img4_e5d695b" src="data/img6.png" width="845" height="274" alt="Newton’s three Laws of Motion describe the relationship between the force or forces acting on an object, modelled as a point mass, and the motion of the object due to the application of the force or forces\
+Free body diagrams show the forces and net force acting on objects, from descriptions of real-life situations involving forces acting in one or two dimensions\
+This includes applying the relationships\
+\
+ 		 𝐹 𝑛𝑒𝑡 =𝑚𝑎              𝐹 𝑤𝑒𝑖𝑔ℎ𝑡 =𝑚𝑔\
+\
+\
+\
+"/></div></div></div>');})();

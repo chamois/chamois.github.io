@@ -1,0 +1,9 @@
+(function(){var loadHandler=window['sl_{CB388659-5984-4C9C-BFAA-14DBF6A14FE1}'];loadHandler&&loadHandler(1, '<div id="spr0_e6331b4"><div id="spr1_e6331b4" class="kern"><img id="img5_e6331b4" src="data/img7.png" width="960px" height="540px" alt="" style="left:0px;top:0px;"/><div id="spr3_e6331b4" style="left:-1px;top:-0.563px;"><img id="img0_e6331b4" src="data/img0.png" width="962" height="82" alt=""/></div><div id="spr4_e6331b4" style="left:460px;top:-0.563px;"><img id="img1_e6331b4" src="data/img1.png" width="500" height="47.812" alt=""/></div><div id="spr5_e6331b4" style="left:-3.113px;top:-7.459px;"><div id="spr6_e6331b4" style="left:0px;top:46.009px;"><img id="img2_e6331b4" src="data/img2.png" width="963.275" height="50.111" alt=""/></div><div id="spr7_e6331b4" style="left:0.774px;top:51.864px;"><img id="img3_e6331b4" src="data/img3.png" width="964.465" height="41.023" alt=""/></div></div></div><div id="spr2_e6331b4" class="kern"><div id="spr8_e6331b4" style="left:48px;top:55.44px;"><div style="width:0px;"><span id="txt0_e6331b4" data-width="302.148438" style="top:23.675px;">Syllabus Points</span></div></div><div id="spr9_e6331b4" style="left:58px;top:156px;"><img id="img4_e6331b4" src="data/img6.png" width="817" height="340" alt="A mechanical system resonates when it is driven at one of its natural frequencies of oscillation; energy is transferred efficiently into systems under these conditions \
+The superposition of waves in a medium may lead to the formation of standing waves and interference phenomena, including standing waves in pipes and on stretched strings\
+This includes applying the relationships for\
+	Strings attached at both ends and pipes open at both ends\
+\
+𝜆= 2𝑙 𝑛 \
+\
+	Pipes closed at one end:\
+𝜆= 4𝑙 2𝑛−1 "/></div></div></div>');})();

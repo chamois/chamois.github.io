@@ -1,0 +1,8 @@
+(function(){var loadHandler=window['sl_{49964B49-DD48-4592-AC6E-E116FFBD6D72}'];loadHandler&&loadHandler(24, '<div id="spr0_e5e48fd"><div id="spr1_e5e48fd" class="kern"><img id="img5_e5e48fd" src="data/img7.png" width="960px" height="540px" alt="" style="left:0px;top:0px;"/><div id="spr3_e5e48fd" style="left:-1px;top:-0.563px;"><img id="img0_e5e48fd" src="data/img0.png" width="962" height="82" alt=""/></div><div id="spr4_e5e48fd" style="left:460px;top:-0.563px;"><img id="img1_e5e48fd" src="data/img1.png" width="500" height="47.812" alt=""/></div><div id="spr5_e5e48fd" style="left:-3.113px;top:-7.459px;"><div id="spr6_e5e48fd" style="left:0px;top:46.009px;"><img id="img2_e5e48fd" src="data/img2.png" width="963.275" height="50.111" alt=""/></div><div id="spr7_e5e48fd" style="left:0.774px;top:51.864px;"><img id="img3_e5e48fd" src="data/img3.png" width="964.465" height="41.023" alt=""/></div></div></div><div id="spr2_e5e48fd" class="kern"><div id="spr8_e5e48fd" style="left:48px;top:55.44px;"><div style="width:0px;"><span id="txt0_e5e48fd" data-width="270.971680" style="top:23.675px;">Example Soln</span></div></div><div id="spr9_e5e48fd" style="left:57px;top:157px;"><img id="img4_e5e48fd" src="data/img16.png" width="845" height="316" alt="𝐚𝐚𝐯= ∆𝒗 ∆𝑡 = 3𝑚𝑠_1𝑆𝑜𝑢𝑡ℎ 2 = 1.5 m/s2 South or\
+\
+OR:\
+\
+𝐚𝐚𝐯= ∆𝒗 ∆𝑡 = −3𝑚𝑠_1 2 = -1.5 m/s2  \
+\
+Therefore, the Dragon was accelerating in the opposite direction to its motion, also known as Decelerating. In simple terms, it was slowing down.\
+"/></div></div></div>');})();

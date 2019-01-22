@@ -1,0 +1,8 @@
+(function(){var loadHandler=window['sl_{1092DDC7-88BE-4A00-B006-4EC41322FEC3}'];loadHandler&&loadHandler(17, '<div id="spr0_e62da8c"><div id="spr1_e62da8c" class="kern"><img id="img6_e62da8c" src="data/img7.png" width="960px" height="540px" alt="" style="left:0px;top:0px;"/><div id="spr3_e62da8c" style="left:-1px;top:-0.563px;"><img id="img0_e62da8c" src="data/img0.png" width="962" height="82" alt=""/></div><div id="spr4_e62da8c" style="left:460px;top:-0.563px;"><img id="img1_e62da8c" src="data/img1.png" width="500" height="47.812" alt=""/></div><div id="spr5_e62da8c" style="left:-3.113px;top:-7.459px;"><div id="spr6_e62da8c" style="left:0px;top:46.009px;"><img id="img2_e62da8c" src="data/img2.png" width="963.275" height="50.111" alt=""/></div><div id="spr7_e62da8c" style="left:0.774px;top:51.864px;"><img id="img3_e62da8c" src="data/img3.png" width="964.465" height="41.023" alt=""/></div></div></div><div id="spr2_e62da8c" class="kern"><div id="spr8_e62da8c" style="left:52px;top:69px;"><img id="img4_e62da8c" src="data/img13.png" width="490" height="77" alt="Inverse Square Law  𝐼∝ 1  𝑟 2  "/></div><div id="spr9_e62da8c" style="left:58px;top:150px;"><img id="img5_e62da8c" src="data/img18.png" width="840" height="344" alt="The ratio between the Intensity and 1/distance2 which looks like this:   𝐼   1  𝑟 2     must always be constant for a given source. So:\
+\
+We can use ratios to find information about a second location using the following relationship:\
+\
+  𝐼 1    1   𝑟 1  2    =  𝐼 2    1   𝑟 2  2    \
+Rearranged:         𝑰 𝟏   𝑰 𝟐  =   𝒓 𝟐  𝟐    𝒓 𝟏  𝟐         This is your friend!\
+\
+"/></div></div></div>');})();
