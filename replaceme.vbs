@@ -23,6 +23,9 @@ Function TraverseFolder(FolderName)
                 objFile.Close
 
                 strText= Replace(strText, "#c0c0c0", "#3b5f7b")
+
+strText= Replace(strText, " --> -->", " -->")
+
                 strText= Replace(strText, "<div id='link' style='position: absolute; text-align: center; width: 100%;'><a  style='font-family: verdana; font-size: 11px; color: #0000CC;' href='http://www.ispringsolutions.com/go/ispring-presentations?ref=free-player-link' title='Create e-Learning courses in PowerPoint with iSpring Authoring tools'>Created with iSpring E-Learning Software</a></div>", " ")
                 'strText= Replace(strText, "Database\Sy", "Database\SQ")
                 strText= Replace(strText, "<html style=background-color:#3b5f7b;>", "<!-- < html style=background-color:#3b5f7b;> -->")
