@@ -1,0 +1,1 @@
+Presentation.loadMaster({m1:'<Div id="m1s7" style="top:-0.8125305px;left:-1px;height:82.5px;width:961.4999px;"><img /></Div><Div id="m1s8" style="top:-1.062515px;left:460px;height:48px;width:500.25px;"><img /></Div><Div id="m1s2" style="top:-7.692368px;left:-0.9094238px;height:93.75px;width:961.4999px;"><img /></Div>',l1:'',l2:''});
